@@ -1,7 +1,15 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T20:15+08:00",
+ "generated_at": "2026-11-21T20:16+08:00",
  "categories": [
+  {
+   "id": "explosives",
+   "name": "民爆"
+  },
+  {
+   "id": "mining",
+   "name": "矿业"
+  },
   {
    "id": "ai",
    "name": "AI 进展"
@@ -9,14 +17,6 @@
   {
    "id": "tech",
    "name": "技术博客"
-  },
-  {
-   "id": "mining",
-   "name": "矿业"
-  },
-  {
-   "id": "explosives",
-   "name": "民爆"
   }
  ],
  "items": [
@@ -2302,17 +2302,6 @@
    "hits": []
   },
   {
-   "id": "91b3dee4abe4913d",
-   "title": "Gold Rate Today in India, 21 Nov 2026 - Live 18K, 22K & 24K Gold Prices",
-   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9oS1doakpSUWg2blRCZGtNeWp5UXFadUo5cVZtTzd5bzBsdHNnUHlsTG9KVEN5UGVMaENmNVNDSGxrVmVLaHgtYWRPeEE?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T09:01:46+00:00",
-   "hits": []
-  },
-  {
    "id": "a775ed749944526b",
    "title": "Gold Price Nears 52-Week Low, Institutions Forecast Rebound to $5,200 Next Year",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa1N6S2EtcjE3aDYxbFNlMUJpamZHYXVUTl81RW1tOC1rdDdBTGJSdTd0TjZDQTJuMWhqOTV4SEQzcWhuU0w5VmMwaE9oVS1leFpqbHgyaXJWREhEWHk0RVJmX3QzNTdzSWZhYm5mVDZ3Ry1LUXAzLVdHZTRId0RjU045UHR5Y3ljck5rbVJselNMU283NllEbjlneFhqM3hlaEZnSHZsazY1T0VvSnc?oc=5",
@@ -2486,39 +2475,6 @@
    "origin": "闪电新闻",
    "category": "mining",
    "published": "2026-11-20T23:17:00+00:00",
-   "hits": []
-  },
-  {
-   "id": "16d6717ded247c5b",
-   "title": "11月20日有色ETF景顺基金份额减少100万份，重仓股紫金矿业、洛阳钼业、北方稀土_基金提醒_雷达",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81N3VzcFVpTEZEamJ5akUzM3V6SUp6UWc5SGdCSDNZaE1xRGw0ODNhS1lQdUUwbDZqcTJ5QURkX3FEZkUyMk5uMENTaTA4bmVEeEYwbVRaMjc3VEN0MGdWTVBB?oc=5",
-   "summary": "",
-   "source": "中文矿业新闻",
-   "origin": "证券之星",
-   "category": "mining",
-   "published": "2026-11-20T22:47:57+00:00",
-   "hits": []
-  },
-  {
-   "id": "07517e31d9efcdb8",
-   "title": "11月20日黄金股ETF华夏基金份额增加1300万份，重仓股紫金矿业、赤峰黄金、中金黄金_基金提醒_雷达",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IR1dKLVB3VHZ6YlhZNFFrQWdwd3RNM2FDeC12cW9ZTXFrVFY4N1o1VEdmWjhROTFoTzJxWUM4SkJOeGVEMTY3ajg2Q2ZYV2Q4VmhFRDlTLWphaHc1QWQzX2Nn?oc=5",
-   "summary": "",
-   "source": "中文矿业新闻",
-   "origin": "证券之星",
-   "category": "mining",
-   "published": "2026-11-20T22:38:40+00:00",
-   "hits": []
-  },
-  {
-   "id": "d538ad268f3ef5ea",
-   "title": "11月20日广发中证有色金属矿业主题ETF基金份额减少300万份，重仓股紫金矿业、洛阳钼业、北方稀土",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42N1dNWHN5SFd6ekhNZzdLc3psTXhqSlZIRXhkUjVQaks2QnVXbEpJWWkzVG56YkpEU0w1UFptU0xZdmtKMGR5OGt5LTd3YkFjTVN1bVRHWUpDODBHSjVzOWxn?oc=5",
-   "summary": "",
-   "source": "中文矿业新闻",
-   "origin": "证券之星",
-   "category": "mining",
-   "published": "2026-11-20T22:31:38+00:00",
    "hits": []
   },
   {
@@ -3166,17 +3122,6 @@
    "hits": []
   },
   {
-   "id": "0dc999d223d51230",
-   "title": "Gold Rate Today in Raigarh (20 Nov 2026)",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZYjg4eUxUQmYxdUE0c3kzZmVPS242dUQ4ZkhXUUFGNEYxWHJISVpBcG1JeUtGNTNPVTNtUE13WVpFQU9jUVRZZk02OGw2eUEwbEhKSmdYMVJxc3RjQ0RZaEVJMHU4ZGQtTDF0Z0dRVnk?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T09:53:44+00:00",
-   "hits": []
-  },
-  {
    "id": "a5ee6d9a0c777296",
    "title": "VanEck Gold Miners Equity ETF (GDX) Stock Price | Quotes & News",
    "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNdlZ4bWdFMmhCZGh0a0pfOGFSRDNPV0c1MWxVSWtLb29QdWhoZ19Kc0lMZFBpZlotRmdOaWlsU0tqQkhMekIybmJGLWlGY082bkpxMElqbDhNdzBJQkkteTd4THZHd0V2dFBPLTdZbUtJR2lkRlVvclQybnkyR0xLU2p5blctNnV0M1hLV2ctV1dLYldvYk9zOW5SaC03UmNQUkR4R01PVzNyVGNhV19OTWJ3QnlabDJ6RmJ1U056OVRHYlJyQWx1QVBlalZXc3RjZi0zYktjSm5ULWxDdlpBRy1ScWtzelpwR3BLZ1FZYmVIRE9MSEk4ODNCRGFZQTgteFhBZUNuQ1BkbWJHczctdk0wMXBNbG9ub01RNXZ2dHFaWE9vMDE4akZPdS1uRnJnZllndmNuY3c0Q2tpTUxlN0hwTHE3ZkFCRk9HOElMVlRFSDlPNEluUlRNcU54QU5KZlFXME8wNGxNWTF6alFhd0o4d1FNT1ZE?oc=5",
@@ -3185,28 +3130,6 @@
    "origin": "Moomoo",
    "category": "mining",
    "published": "2026-11-21T09:39:59+00:00",
-   "hits": []
-  },
-  {
-   "id": "e07f804fa81a35ca",
-   "title": "Gold Rate Today in Kalahandi (21 Nov 2026)",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TZWhMcFlvSkc3WnNQLUFrZk9EVjN0cDhqaXJnbzZGSnRjNDg1am5lU2p3cXlFcnRac1ZtZThtMmVxMG9TVF9zRi12MFFYSVFDMkE1WmpHbmZpWkFtaUtxUHJhUHpYRDE1SXRkMEtPRzhjbFk?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T08:51:14+00:00",
-   "hits": []
-  },
-  {
-   "id": "4a08f860908fdd25",
-   "title": "Gold Rate Today in Bokaro (21 Nov 2026)",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UYUMtaFRnclFOTF9ENU90SHNDQTd2SjlLeURwZGxOOXJQMnYwekNZT21mTVZVLTBwbTh2ZXlSV1Q2R2J1V0pfZHpJZElQelNmSVFKeWRBcW1Ia1RhMFJZT3ptaG9ob2taSVBESkRIbw?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T08:01:41+00:00",
    "hits": []
   },
   {
@@ -3221,17 +3144,6 @@
    "hits": []
   },
   {
-   "id": "5a7c1c966513d5b8",
-   "title": "Gold Rate Today in Cooch Behar (21 Nov 2026)",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51SVNyaHNzbl8tbW1LTUQzRkVWMGFZOW1Yb0xnZFZWbFVVZDN5ZS1FdEEtMVdZSldyVXM2V1FXZVNLX1ptT1JwTXVrVks0cmhabWVtVFdudTAydXd5Y1otdnByVXhwY0gwM3VpS0J1SDU1XzBDWXc?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T06:26:24+00:00",
-   "hits": []
-  },
-  {
    "id": "c5394c1d22333542",
    "title": "Gold Price vs Miner Margins: Who Can Absorb Rising Costs?",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWk5SWkFsU01kbmJsSm15ODBfMVRCQy00NlRRdkJfR20xUno3NWZldThGV1dRbGdkMHpyYW5NbGJIRll4aHhHajdYNm9FX05QQ0JXallmVnJJYmVWcTE4RnJoMS1oV2gycmlRcWg1bDBfc3JTR2ZyTklXdFlzV3NubGNyUXJzVlU?oc=5",
@@ -3240,17 +3152,6 @@
    "origin": "Discovery Alert",
    "category": "mining",
    "published": "2026-11-21T05:55:04+00:00",
-   "hits": []
-  },
-  {
-   "id": "f36a892b2a44c223",
-   "title": "Gold Rate Today in Gwalior (21 Nov 2026)",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XTHhBVFNkRXZHSU1aTmo1UVlZb0ZSY2o5T2piSE1PM1A3LXkxbkFmaVBxRGJNREZDYVRKR0VtNGtZYTk5QVdLYmZqQ01GSjJGOWYzQ013QjhSMXpZaXk2eENrSnE0bzBlWm5yMEwtdjU?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T05:45:06+00:00",
    "hits": []
   },
   {
@@ -3645,17 +3546,6 @@
    "hits": []
   },
   {
-   "id": "09d06f35fbfe9bda",
-   "title": "Gold Rate Today in Bangalore, 21 Nov 2026 - Live 18K, 22K & 24K Gold Prices",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIS3F4MDVZR0tIVWlxMVltN080VkdVODBxWk9NTnp2Z2t6ODdyZ2ktSWNjM2RFSWIwWGU5UmZONnVZR1A3MUE5MG55aW5PNkpTRlJyTmVJZlItcmxaUlN4MFFYMVo4X3lFb0lrOWVMdUtnaWs?oc=5",
-   "summary": "",
-   "source": "黄金市场新闻",
-   "origin": "Kotak Neo",
-   "category": "mining",
-   "published": "2026-11-21T10:02:31+00:00",
-   "hits": []
-  },
-  {
    "id": "d0f2d299b25e7bb6",
    "title": "Unitas Gold price today, XGLD to USD live price, market cap and chart",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IcGoyN0tDVjZpWHlocGwxVDFXYmNKSTM3N21yYUxqcVR0ZnY2bFZZY0JOMmx6eHJPQTB3TVpSUENaam1QTVlxTUxMT2xZaHI4ZkRz?oc=5",
@@ -3830,6 +3720,17 @@
    "category": "mining",
    "published": "2026-11-20T08:42:09+00:00",
    "hits": []
+  },
+  {
+   "id": "8b7d4aa961d32a99",
+   "title": "苏丹铜金矿合作或转让_行业新闻",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcFFxbng1WmxDbEVRYlNUa0RaWjItd0UzODhTUmdkRGV3RlRNUmNNenlvVXMzYXVhV2kzTXJKLU9tbmFTRTk5cTlIRUhQVEtmWWF0TEYzMlZ1Vmd6MUJSd0VMMlhzWkw5SWtKTFM0eW9rRHZDWHBLVkV2NDR3dkxOZkswM0tvV1VUUHc?oc=5",
+   "summary": "",
+   "source": "中文矿业新闻",
+   "origin": "全球矿产资源网",
+   "category": "mining",
+   "published": "2026-11-21T02:55:50+00:00",
+   "hits": []
   }
  ],
  "clusters": [
@@ -3839,26 +3740,20 @@
    "link": "https://www.mining.com/gold-price-falls-nears-3500-as-miners-face-soaring-costs/",
    "items": [
     "15cdc86cd83063d7",
-    "09d06f35fbfe9bda",
-    "0dc999d223d51230",
-    "91b3dee4abe4913d",
-    "e07f804fa81a35ca",
-    "4a08f860908fdd25",
     "380f9d3a186a2535",
     "be967588b7540bc6",
     "613b236dd3f485ae",
     "c5394c1d22333542",
-    "f36a892b2a44c223",
     "d13f6e94a419a075",
     "a18206e8cfd67067",
     "95f7500839a55c5d",
     "95f11a5cce1db34b",
     "a4416231121d7f4c"
    ],
-   "sources": 9,
+   "sources": 8,
    "hits": [],
    "latest": "2026-11-21T10:31:34+00:00",
-   "score": 28.0,
+   "score": 25.0,
    "id": "c0"
   },
   {
@@ -3879,8 +3774,26 @@
     "Orica"
    ],
    "latest": "2026-11-20T15:14:20+00:00",
-   "score": 21.0,
+   "score": 25.0,
    "id": "c1"
+  },
+  {
+   "category": "explosives",
+   "title": "BME opens Western Australia’s first electronic detonator manufacturing plant",
+   "link": "https://im-mining.com/2026/11/20/bme-opens-western-australias-first-electronic-detonator-manufacturing-plant/",
+   "items": [
+    "e1f0378455467808",
+    "56563f924e3b92af",
+    "26df2249dcbdf47d"
+   ],
+   "sources": 3,
+   "hits": [
+    "Omnia",
+    "detonator"
+   ],
+   "latest": "2026-11-20T15:39:50+00:00",
+   "score": 16.0,
+   "id": "c2"
   },
   {
    "category": "mining",
@@ -3898,7 +3811,7 @@
    "hits": [],
    "latest": "2026-11-21T02:59:35+00:00",
    "score": 15.0,
-   "id": "c2"
+   "id": "c3"
   },
   {
    "category": "mining",
@@ -3915,73 +3828,7 @@
    "hits": [],
    "latest": "2026-11-20T14:27:57+00:00",
    "score": 15.0,
-   "id": "c3"
-  },
-  {
-   "category": "mining",
-   "title": "国城矿业：截至11月20日累计回购股份耗资3.02亿元",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdXNaUEhKcmZSZXhIWkROQjdMMnZBbTFHemZMWlMxUkxRWGVKT1lEQjF5NmxwaThFZklEZndhbDRtVmh3NXE0VFF0U3JiU2Z4dzR0LWltcGQ1ZGlPN2xZQVdPNEFQNFN2cENSSzZjbTVBLXpFU054QmUzYWVjNmZpcTBMOTBHT2RLTlp6aA?oc=5",
-   "items": [
-    "6716d71e19ec8e3f",
-    "2b878dff3990a4e4",
-    "f39215e6cd7a1ef3",
-    "fc21fb2c65c9c0f9"
-   ],
-   "sources": 4,
-   "hits": [],
-   "latest": "2026-11-20T23:25:05+00:00",
-   "score": 12.0,
    "id": "c4"
-  },
-  {
-   "category": "explosives",
-   "title": "BME opens Western Australia’s first electronic detonator manufacturing plant",
-   "link": "https://im-mining.com/2026/11/20/bme-opens-western-australias-first-electronic-detonator-manufacturing-plant/",
-   "items": [
-    "e1f0378455467808",
-    "56563f924e3b92af",
-    "26df2249dcbdf47d"
-   ],
-   "sources": 3,
-   "hits": [
-    "Omnia",
-    "detonator"
-   ],
-   "latest": "2026-11-20T15:39:50+00:00",
-   "score": 12.0,
-   "id": "c5"
-  },
-  {
-   "category": "explosives",
-   "title": "金奥博(002917.SZ)：董事长提议回购公司股份",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5acS0xUVdKQzNVZ1BqR2w3THhhaDNDalZLalhBX0lBZkJiLUNJZVVxNTBmY0g3R0taSExtYmNYbjhJNzRFb3Q0MnB6NnFRa1dwMVhtdUVxMmFESWYzNVFia0V2QVZaNDNDQ2c?oc=5",
-   "items": [
-    "aca64b5cee87f6cc",
-    "1ceec80f5eebc1bf",
-    "6b0c6b9e99d9e83e",
-    "1df9ac4833ec2cf6"
-   ],
-   "sources": 4,
-   "hits": [],
-   "latest": "2026-11-20T12:13:21+00:00",
-   "score": 12.0,
-   "id": "c6"
-  },
-  {
-   "category": "explosives",
-   "title": "Russia: drones attacked explosives component plant",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmZ0VXgxVFBqdGdQdG9TNlotRzMzX3M0MlpZRGJsNmlIMFdiQjNYdFc1N1NQSXJUOTBXN29tMzFfSjhiVVVRZzZmY1NYU3ZzZnl2SEZZVVFfYW1pT2l3N3lYQXViUW11ZjJ0QUVNM1d6RENPbG9TZDhQLS1teUlkbWZDcWpCVlltRlBDQ1FueWlxSmE1QTdHdWcyM1NxenJjbmp4ZA?oc=5",
-   "items": [
-    "d7c26c123a37a79a",
-    "a580b597ec1086de",
-    "6b8855fb2989e1a4",
-    "ccbb70448fc3659a"
-   ],
-   "sources": 4,
-   "hits": [],
-   "latest": "2026-11-20T07:04:00+00:00",
-   "score": 12.0,
-   "id": "c7"
   },
   {
    "category": "mining",
@@ -3997,7 +3844,55 @@
     "Nigeria"
    ],
    "latest": "2026-11-20T13:49:07+00:00",
-   "score": 11.0,
+   "score": 13.0,
+   "id": "c5"
+  },
+  {
+   "category": "mining",
+   "title": "国城矿业：截至11月20日累计回购股份耗资3.02亿元",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdXNaUEhKcmZSZXhIWkROQjdMMnZBbTFHemZMWlMxUkxRWGVKT1lEQjF5NmxwaThFZklEZndhbDRtVmh3NXE0VFF0U3JiU2Z4dzR0LWltcGQ1ZGlPN2xZQVdPNEFQNFN2cENSSzZjbTVBLXpFU054QmUzYWVjNmZpcTBMOTBHT2RLTlp6aA?oc=5",
+   "items": [
+    "6716d71e19ec8e3f",
+    "2b878dff3990a4e4",
+    "f39215e6cd7a1ef3",
+    "fc21fb2c65c9c0f9"
+   ],
+   "sources": 4,
+   "hits": [],
+   "latest": "2026-11-20T23:25:05+00:00",
+   "score": 12.0,
+   "id": "c6"
+  },
+  {
+   "category": "explosives",
+   "title": "金奥博(002917.SZ)：董事长提议回购公司股份",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5acS0xUVdKQzNVZ1BqR2w3THhhaDNDalZLalhBX0lBZkJiLUNJZVVxNTBmY0g3R0taSExtYmNYbjhJNzRFb3Q0MnB6NnFRa1dwMVhtdUVxMmFESWYzNVFia0V2QVZaNDNDQ2c?oc=5",
+   "items": [
+    "aca64b5cee87f6cc",
+    "1ceec80f5eebc1bf",
+    "6b0c6b9e99d9e83e",
+    "1df9ac4833ec2cf6"
+   ],
+   "sources": 4,
+   "hits": [],
+   "latest": "2026-11-20T12:13:21+00:00",
+   "score": 12.0,
+   "id": "c7"
+  },
+  {
+   "category": "explosives",
+   "title": "Russia: drones attacked explosives component plant",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmZ0VXgxVFBqdGdQdG9TNlotRzMzX3M0MlpZRGJsNmlIMFdiQjNYdFc1N1NQSXJUOTBXN29tMzFfSjhiVVVRZzZmY1NYU3ZzZnl2SEZZVVFfYW1pT2l3N3lYQXViUW11ZjJ0QUVNM1d6RENPbG9TZDhQLS1teUlkbWZDcWpCVlltRlBDQ1FueWlxSmE1QTdHdWcyM1NxenJjbmp4ZA?oc=5",
+   "items": [
+    "d7c26c123a37a79a",
+    "a580b597ec1086de",
+    "6b8855fb2989e1a4",
+    "ccbb70448fc3659a"
+   ],
+   "sources": 4,
+   "hits": [],
+   "latest": "2026-11-20T07:04:00+00:00",
+   "score": 12.0,
    "id": "c8"
   },
   {
@@ -4031,273 +3926,6 @@
    "id": "c10"
   },
   {
-   "category": "mining",
-   "title": "Tinubu orders MDAs to remove investment barriers",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOEE4QjJLMGtvOC1VdHJqbkwyMW5vV3NJUEJQRDJBNGlrdUNIVTRMNHRHOGZlS1BwbjhacjdjU2tVa2ZJeE1RN3gzemZiWmdoZi1CeV9OVm1GbXlOVEhEVlZIcm9xVEE0WWEwYl9oRlZUeWdNRkQtRkFmWnVMRGo3NE9oZDZ0MmpMVVhSOGdpejZuN2VQR1NpUTJlWW5WOUlOc0Z3aWdB?oc=5",
-   "items": [
-    "fad0a6d2326a504b",
-    "d53a98ec1ed3e664",
-    "f9041f14ac2773fc"
-   ],
-   "sources": 3,
-   "hits": [],
-   "latest": "2026-11-19T16:58:34+00:00",
-   "score": 9.0,
-   "id": "c11"
-  },
-  {
-   "category": "ai",
-   "title": "Google is putting AI chats right on the homepage",
-   "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-   "items": [
-    "5a49fd4a2d776cb4",
-    "6900f6014b2aa0cd"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T21:58:29+00:00",
-   "score": 7.0,
-   "id": "c12"
-  },
-  {
-   "category": "ai",
-   "title": "Inkling 2 Mini",
-   "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "items": [
-    "b9db119f86f5ede9",
-    "80d31a6dee298bbd"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T20:12:19+00:00",
-   "score": 7.0,
-   "id": "c13"
-  },
-  {
-   "category": "ai",
-   "title": "Quoting Levent Alpöge",
-   "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
-   "items": [
-    "9e188d65b5accd0c",
-    "bbe099f2944c559d"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T16:30:48+00:00",
-   "score": 7.0,
-   "id": "c14"
-  },
-  {
-   "category": "mining",
-   "title": "US seabed auction proceeds despite court setback",
-   "link": "https://www.northernminer.com/regulatory-issues/us-seabed-auction-proceeds-despite-court-setback/1003898091/",
-   "items": [
-    "8f8241fca00c0b61",
-    "8f40434842774118"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T15:00:00+00:00",
-   "score": 7.0,
-   "id": "c15"
-  },
-  {
-   "category": "mining",
-   "title": "Angola plans US$180 million for De Beers stake",
-   "link": "https://www.northernminer.com/news/angola-plans-us180-million-for-de-beers-stake/1003898116/",
-   "items": [
-    "0a565c073598858c",
-    "41645f57e8c8c946"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T14:48:00+00:00",
-   "score": 7.0,
-   "id": "c16"
-  },
-  {
-   "category": "mining",
-   "title": "Chile’s $111B mining boom hinges on lithium approvals",
-   "link": "https://www.northernminer.com/analysis/chiles-111b-mining-boom-hinges-on-lithium-approvals/1003898089/",
-   "items": [
-    "8cb635237ba5862e",
-    "1d9724e286ab66a5"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T13:15:00+00:00",
-   "score": 7.0,
-   "id": "c17"
-  },
-  {
-   "category": "ai",
-   "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
-   "link": "https://sspai.com/post/119311",
-   "items": [
-    "32dbb6202d720444",
-    "0c3c8b23c6caec3f"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T00:34:31+00:00",
-   "score": 7.0,
-   "id": "c18"
-  },
-  {
-   "category": "mining",
-   "title": "Vizsla delays first silver at Panuco by a year",
-   "link": "https://www.mining.com/vizsla-delays-first-silver-at-panuco-by-a-year/",
-   "items": [
-    "cc38ed64527192e0",
-    "4ab051a7744ff75b"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-19T21:55:45+00:00",
-   "score": 7.0,
-   "id": "c19"
-  },
-  {
-   "category": "mining",
-   "title": "Friedland’s Ivanhoe Electric strikes high-grade copper",
-   "link": "https://www.northernminer.com/news/friedlands-ivanhoe-electric-strikes-high-grade-copper/1003898048/",
-   "items": [
-    "e6e38500208f7765",
-    "1f51808f6581eee8"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-19T21:45:00+00:00",
-   "score": 7.0,
-   "id": "c20"
-  },
-  {
-   "category": "mining",
-   "title": "Asante weighs options as $100M deadline nears",
-   "link": "https://www.northernminer.com/news/asante-weighs-options-as-100m-deadline-nears/1003898030/",
-   "items": [
-    "3be3cf5c4d931fb7",
-    "2f5a5ab64f663f68"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-19T21:30:55+00:00",
-   "score": 7.0,
-   "id": "c21"
-  },
-  {
-   "category": "mining",
-   "title": "Torex renews buyback after NYSE debut",
-   "link": "https://www.mining.com/torex-expands-us-reach-with-nyse-listing-share-buyback/",
-   "items": [
-    "68ac4dbd2ecf32a0",
-    "f04cb65b86c594a3"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-19T15:50:00+00:00",
-   "score": 7.0,
-   "id": "c22"
-  },
-  {
-   "category": "mining",
-   "title": "Codelco faces dust charges at Chilean mine",
-   "link": "https://www.northernminer.com/news/codelco-faces-dust-charges-at-chilean-mine/1003898058/",
-   "items": [
-    "d95877742a5103d4",
-    "8736ebf79ee8eb93"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-19T15:45:00+00:00",
-   "score": 7.0,
-   "id": "c23"
-  },
-  {
-   "category": "ai",
-   "title": "江苏出台“人工智能+金融”三年行动方案 发布首批五张清单",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBreGI3b2FVcmhuVVU3blMzNzBzX1ctMjlCZFNmelRRTmF0N3JnNFk0NTYxN2VEQVVGdWJlTlNLeWEweTU5dVZMN1BGVExmSnUtM1JxZEEzZnA0cGRPNW1iNEVDYUk4ZE5Vc2c?oc=5",
-   "items": [
-    "d9927b362c017cf4",
-    "2c94705d1f6c0524"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-21T07:41:22+00:00",
-   "score": 6.0,
-   "id": "c24"
-  },
-  {
-   "category": "mining",
-   "title": "紫金矿业：紫金矿业集团股份有限公司关于以集中竞价方式回购A股股份方案的公告暨回购报告书",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZi1sTERiZG1wcmR4bEtyRnZBa1lzYjRwUXlCTzZJZ2pocUUtRWhRSU5WSGt1REJsX1QzUGJQVk02ZXBDUzBjTmR2dk5qbGVxSVktUnN2T2FVWXNneF8zNWNheGNEZms3Sl9hcWFrRFJWcnpLWE9PN3JYbmtOLXIwR0RHdE9uMTh5REtVOFQ5VjM2NjNlb1Q0T2ttUlM3QXN5YjNnVDJkYWtFbDBm?oc=5",
-   "items": [
-    "b01561821ddaf631",
-    "c74dcf7ebd383dcd"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T16:36:05+00:00",
-   "score": 6.0,
-   "id": "c25"
-  },
-  {
-   "category": "mining",
-   "title": "赤峰发现一座金矿",
-   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tb0RIOThjUzhLWmVYdWNYdW52UGZzR1I5N0tyT3dfN0tUNUpuUUNXYkxWT3V1QjVnZkNXRjctcExTTjMzdXJpMVRNOXQ?oc=5",
-   "items": [
-    "8dac9d24d0a72f3e",
-    "1c9fd916c79f53aa"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T15:24:24+00:00",
-   "score": 6.0,
-   "id": "c26"
-  },
-  {
-   "category": "explosives",
-   "title": "Ukrainian Drones Target Smolensk Region Fertilizer Plant",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc21OcTlxTDFIbURNX2lMbTJ1R0lwWUxPRTdRQnZWZ0JPbzl1OV9pWjlFRy0tZkRYblJCUjVSRWVWbEdIZF9EMlBHZVBNd1dEQUZPeExsSzlDV1FRMll4amtkSlRGa2ZoNEhuU3ZLTWFLMUk4c2ZjY1JpdlRhWUJETnRFS01ncEtzeng1a3hmYS1TY3VQeURjRmo4R05TTUV5Z01lVkh0NTg?oc=5",
-   "items": [
-    "e96e3cf26f54204d",
-    "95b0ae3e43f81a23"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T10:05:20+00:00",
-   "score": 6.0,
-   "id": "c27"
-  },
-  {
-   "category": "explosives",
-   "title": "无人机袭击了位于俄罗斯斯摩棱斯克州的道罗戈布日化工厂",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM0tYZTVCUlFFbjhMcTN0dFRPQjhpOVBtZjB0N3lDbHg5X01wTHZ1bVdKVVJVX3o1djNvR3RMMW50OGIzSjVVdlpTWnF1TDJ2cHRBTWU0emVRcFpzejVfcEhVNzktTHdKMHk2NFFhT25zSE9HNFppRTJHVk1USXNEOGFEVjNsNHY2elAtZDZqRDdXNEdna2JmSEZfSkVrbFhhS1E?oc=5",
-   "items": [
-    "b2305b29eaa4d6a4",
-    "a6e0e663ef757c40"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T02:01:00+00:00",
-   "score": 6.0,
-   "id": "c28"
-  },
-  {
-   "category": "ai",
-   "title": "“天华开物” 自主酶设计大模型在津发布",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYm9iV1dUbmxFZzJWSW9Qb1k1MV9GbG80RWUzcTBVYmxzZFRBdWh0NXYtZ0duQ0hxd0ZXX3U3TDV1WnpNeDZOM2dpSEJySWN5M0FtWmxCSzJXZGtsLWxDZ2NvWjhSdW9ndFVRTnh0bTN1ZXg1TXltYlJTR0ZhcThoN2Z3?oc=5",
-   "items": [
-    "4d351f73045971d0",
-    "1ea580dd0bb1b363"
-   ],
-   "sources": 2,
-   "hits": [],
-   "latest": "2026-11-20T01:30:18+00:00",
-   "score": 6.0,
-   "id": "c29"
-  },
-  {
    "category": "explosives",
    "title": "Dyno Nobel Unveils Autonomous Blasthole Loading System",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb3U2TzRXaWJkMm02RFRsME5qUnFkakJzbFpfcXdDVXo1THBCWWtYUnZiR3p2QjhSdHF5QkhQZ0pkQWkzbHBPTzJtUzBDcnBjSC14cUJFNy1VbE00eC1xdFlGcXBXZXR5eUo5QmdWMXk0NzZRWGJ1ek5iRlJFZHRERWJNeXE1VU82RUZ6am4xd2ZMN2xyY0E?oc=5",
@@ -4309,53 +3937,8 @@
     "Dyno Nobel"
    ],
    "latest": "2026-11-20T21:54:17+00:00",
-   "score": 5.0,
-   "id": "c30"
-  },
-  {
-   "category": "mining",
-   "title": "Mining can unlock jobs, wealth for Nigerian youths – Minister",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVGZMdktCWVN4TlBRdlA0R0oxQ3lKQTFGd2JfZGJxbi1ELTdTWHlzRlpqTXZyWUpweDQ0cG91V2J2LVhrRTJKaktiamZEemxCTDZtbHE4NU1ZN2ZlNFBtR3BNZHhIcWtrRmdyRG96bHlBdVJWRmYxRWhLM2xiTVdmR2pOUUZ2dw?oc=5",
-   "items": [
-    "091dbe1d01326e8a"
-   ],
-   "sources": 1,
-   "hits": [
-    "Nigerian"
-   ],
-   "latest": "2026-11-20T18:23:11+00:00",
-   "score": 5.0,
-   "id": "c31"
-  },
-  {
-   "category": "mining",
-   "title": "Solid minerals key to Nigeria’s economic diversification- NEPC",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnY5cG53MndBY1lXUVZIT0laUVJsQ2NmbTQyei04b2pBZFh4RUZ2YzZPWDRucHpQZ0RCTHRmUEZxOWp4R01wbkVvT3hkXzFhc1paSnB1RnFTY0UwV3A5OUFwUTJuOWhNWEJDYlBFYTlQak11RGNqSDhMNTVOX1RkYTA2VUZvZHJw?oc=5",
-   "items": [
-    "12309c7f9f94fd76"
-   ],
-   "sources": 1,
-   "hits": [
-    "Nigeria"
-   ],
-   "latest": "2026-11-20T16:12:30+00:00",
-   "score": 5.0,
-   "id": "c32"
-  },
-  {
-   "category": "mining",
-   "title": "Oyetola Woos Investors to Nigeria’s Untapped Blue Economy Opportunities &",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzBfSW5wNlp1U3VENXpwVWtBbXZDRjRuTFM4SXZXZFZwR0tYMGZYNUJzSjRmTWp2UllPVW9OZXh6a01XVjJIaUhhVUZ1bVpXQXlVVnNmVFMxMUFBZGZveG1zaWNyQjRhbGU1R3lVV1drSU5PMWJhbXBfU1V5OG9aZXMwSXpPcHVfU2NGNEdTRmRfNVM4X0J1aTlKN01MZ3FXb3NDMEV3?oc=5",
-   "items": [
-    "56278809689f434e"
-   ],
-   "sources": 1,
-   "hits": [
-    "Nigeria"
-   ],
-   "latest": "2026-11-20T16:04:38+00:00",
-   "score": 5.0,
-   "id": "c33"
+   "score": 9.0,
+   "id": "c11"
   },
   {
    "category": "explosives",
@@ -4369,8 +3952,8 @@
     "blasting"
    ],
    "latest": "2026-11-20T15:32:29+00:00",
-   "score": 5.0,
-   "id": "c34"
+   "score": 9.0,
+   "id": "c12"
   },
   {
    "category": "explosives",
@@ -4384,38 +3967,8 @@
     "Orica"
    ],
    "latest": "2026-11-20T13:31:53+00:00",
-   "score": 5.0,
-   "id": "c35"
-  },
-  {
-   "category": "mining",
-   "title": "Illegal Mining: 850 suspects arrested as Nigeria's mining revenue hits N101bn",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUFlIZkJaUEhRd0tOQXVRYmQ1MHVOQ3dpMWVSUDRMZDJ4d0c1WDlDaXE2b2MwUnI0UDdHdnFSbnFVQllBM2QwVUp5SFFnMHFtNjA4UEJudFUtblZhRnNkcmZtOVFZTkhZTE9fNjFPN1Z3QXgzSHlpbm9ZNnBSaG9JMmt2YUpTLVdxNFNVLWh4T1F5RXFJTVY4MHZtSzg4bm5kTHg1cUF1bXR4Vm9OU0FvVUtQdms?oc=5",
-   "items": [
-    "c6f4875fdcdd6bc7"
-   ],
-   "sources": 1,
-   "hits": [
-    "Nigeria"
-   ],
-   "latest": "2026-11-20T13:16:00+00:00",
-   "score": 5.0,
-   "id": "c36"
-  },
-  {
-   "category": "mining",
-   "title": "Where will Nigeria find its next Segilola?",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWduZ1o3Vy00Q3p3WVhyT2E3aEZSMy1qT1hZTkpheWhXeXp6SzhhNEE0cUVFSUZmMm1ZYW42SGZRb2l5Q252SlJqR2pPM21nUTczZm5DMVZrQWdwQlk1TEcwUVZRcEFSMVFXYUJTNG0wa2k4aDBWemgyUGFBbXNudFZVQ0VGV1F5c1lHWnZPT041QQ?oc=5",
-   "items": [
-    "61fbf0784b18419f"
-   ],
-   "sources": 1,
-   "hits": [
-    "Nigeria"
-   ],
-   "latest": "2026-11-20T12:21:26+00:00",
-   "score": 5.0,
-   "id": "c37"
+   "score": 9.0,
+   "id": "c13"
   },
   {
    "category": "explosives",
@@ -4429,8 +3982,8 @@
     "ammonium nitrate"
    ],
    "latest": "2026-11-20T12:01:16+00:00",
-   "score": 5.0,
-   "id": "c38"
+   "score": 9.0,
+   "id": "c14"
   },
   {
    "category": "explosives",
@@ -4444,23 +3997,8 @@
     "ammonium nitrate"
    ],
    "latest": "2026-11-20T10:30:45+00:00",
-   "score": 5.0,
-   "id": "c39"
-  },
-  {
-   "category": "mining",
-   "title": "Nigeria is ready to progress into an era of reliable power – Tinubu declares",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalYxZFVyanl3OHFEUXN4UzV3ZUYyVG5VcFRpZUh5Vm1hY3ZvUjFUZFI3c19VVXVHR0ZldlZKOFdWdWJTSDZjTWx4MDBsWDZSRmc4bUtaOHRNQXNDYU12VF9YZlpWSU16RERmWHlRRURhZTNGWW53NWJ4YWpGM0d0TzRMdjljOW9ydVE3WXZBWVJRUlFNY2ZJZnFXanY2MV9IM1pIX0x3bmt2dw?oc=5",
-   "items": [
-    "363c90a0f57ea78a"
-   ],
-   "sources": 1,
-   "hits": [
-    "Nigeria"
-   ],
-   "latest": "2026-11-20T09:52:00+00:00",
-   "score": 5.0,
-   "id": "c40"
+   "score": 9.0,
+   "id": "c15"
   },
   {
    "category": "explosives",
@@ -4474,8 +4012,8 @@
     "民爆"
    ],
    "latest": "2026-11-20T09:26:23+00:00",
-   "score": 5.0,
-   "id": "c41"
+   "score": 9.0,
+   "id": "c16"
   },
   {
    "category": "explosives",
@@ -4489,8 +4027,8 @@
     "广东宏大"
    ],
    "latest": "2026-11-20T08:36:36+00:00",
-   "score": 5.0,
-   "id": "c42"
+   "score": 9.0,
+   "id": "c17"
   },
   {
    "category": "explosives",
@@ -4504,8 +4042,8 @@
     "Orica"
    ],
    "latest": "2026-11-19T23:49:00+00:00",
-   "score": 5.0,
-   "id": "c43"
+   "score": 9.0,
+   "id": "c18"
   },
   {
    "category": "explosives",
@@ -4519,23 +4057,23 @@
     "Orica"
    ],
    "latest": "2026-11-19T21:52:59+00:00",
-   "score": 5.0,
-   "id": "c44"
+   "score": 9.0,
+   "id": "c19"
   },
   {
    "category": "mining",
-   "title": "Alake: Mental Underdevelopment Limiting Nigeria’s Progress",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3QwUUswUHpTM0xzbUFqX29FZmRtYlp6NF9BaUdzNjhDQTFaTWlxeldITFZiX2hHclJXa2lRY2VGVWpHMGJNdTdtRDNNdVFjU3J5X0txZi11N1hsUnQwWmxmSjFOcjVkb3ZKWmNVTkRmdXRDQzBLWXZZWEJKT2lpeW1XZmY3aDQ?oc=5",
+   "title": "Tinubu orders MDAs to remove investment barriers",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOEE4QjJLMGtvOC1VdHJqbkwyMW5vV3NJUEJQRDJBNGlrdUNIVTRMNHRHOGZlS1BwbjhacjdjU2tVa2ZJeE1RN3gzemZiWmdoZi1CeV9OVm1GbXlOVEhEVlZIcm9xVEE0WWEwYl9oRlZUeWdNRkQtRkFmWnVMRGo3NE9oZDZ0MmpMVVhSOGdpejZuN2VQR1NpUTJlWW5WOUlOc0Z3aWdB?oc=5",
    "items": [
-    "bd741e866e666393"
+    "fad0a6d2326a504b",
+    "d53a98ec1ed3e664",
+    "f9041f14ac2773fc"
    ],
-   "sources": 1,
-   "hits": [
-    "Nigeria"
-   ],
-   "latest": "2026-11-19T21:20:07+00:00",
-   "score": 5.0,
-   "id": "c45"
+   "sources": 3,
+   "hits": [],
+   "latest": "2026-11-19T16:58:34+00:00",
+   "score": 9.0,
+   "id": "c20"
   },
   {
    "category": "explosives",
@@ -4549,8 +4087,8 @@
     "广东宏大"
    ],
    "latest": "2026-11-19T15:32:16+00:00",
-   "score": 5.0,
-   "id": "c46"
+   "score": 9.0,
+   "id": "c21"
   },
   {
    "category": "explosives",
@@ -4565,8 +4103,8 @@
     "民爆"
    ],
    "latest": "2026-11-19T15:31:20+00:00",
-   "score": 5.0,
-   "id": "c47"
+   "score": 9.0,
+   "id": "c22"
   },
   {
    "category": "explosives",
@@ -4580,7 +4118,364 @@
     "易普力"
    ],
    "latest": "2026-11-19T13:01:31+00:00",
-   "score": 5.0,
+   "score": 9.0,
+   "id": "c23"
+  },
+  {
+   "category": "ai",
+   "title": "Google is putting AI chats right on the homepage",
+   "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+   "items": [
+    "5a49fd4a2d776cb4",
+    "6900f6014b2aa0cd"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T21:58:29+00:00",
+   "score": 7.0,
+   "id": "c24"
+  },
+  {
+   "category": "ai",
+   "title": "Inkling 2 Mini",
+   "link": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "items": [
+    "b9db119f86f5ede9",
+    "80d31a6dee298bbd"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T20:12:19+00:00",
+   "score": 7.0,
+   "id": "c25"
+  },
+  {
+   "category": "mining",
+   "title": "Mining can unlock jobs, wealth for Nigerian youths – Minister",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVGZMdktCWVN4TlBRdlA0R0oxQ3lKQTFGd2JfZGJxbi1ELTdTWHlzRlpqTXZyWUpweDQ0cG91V2J2LVhrRTJKaktiamZEemxCTDZtbHE4NU1ZN2ZlNFBtR3BNZHhIcWtrRmdyRG96bHlBdVJWRmYxRWhLM2xiTVdmR2pOUUZ2dw?oc=5",
+   "items": [
+    "091dbe1d01326e8a"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigerian"
+   ],
+   "latest": "2026-11-20T18:23:11+00:00",
+   "score": 7.0,
+   "id": "c26"
+  },
+  {
+   "category": "ai",
+   "title": "Quoting Levent Alpöge",
+   "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+   "items": [
+    "9e188d65b5accd0c",
+    "bbe099f2944c559d"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T16:30:48+00:00",
+   "score": 7.0,
+   "id": "c27"
+  },
+  {
+   "category": "mining",
+   "title": "Solid minerals key to Nigeria’s economic diversification- NEPC",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnY5cG53MndBY1lXUVZIT0laUVJsQ2NmbTQyei04b2pBZFh4RUZ2YzZPWDRucHpQZ0RCTHRmUEZxOWp4R01wbkVvT3hkXzFhc1paSnB1RnFTY0UwV3A5OUFwUTJuOWhNWEJDYlBFYTlQak11RGNqSDhMNTVOX1RkYTA2VUZvZHJw?oc=5",
+   "items": [
+    "12309c7f9f94fd76"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigeria"
+   ],
+   "latest": "2026-11-20T16:12:30+00:00",
+   "score": 7.0,
+   "id": "c28"
+  },
+  {
+   "category": "mining",
+   "title": "Oyetola Woos Investors to Nigeria’s Untapped Blue Economy Opportunities &",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzBfSW5wNlp1U3VENXpwVWtBbXZDRjRuTFM4SXZXZFZwR0tYMGZYNUJzSjRmTWp2UllPVW9OZXh6a01XVjJIaUhhVUZ1bVpXQXlVVnNmVFMxMUFBZGZveG1zaWNyQjRhbGU1R3lVV1drSU5PMWJhbXBfU1V5OG9aZXMwSXpPcHVfU2NGNEdTRmRfNVM4X0J1aTlKN01MZ3FXb3NDMEV3?oc=5",
+   "items": [
+    "56278809689f434e"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigeria"
+   ],
+   "latest": "2026-11-20T16:04:38+00:00",
+   "score": 7.0,
+   "id": "c29"
+  },
+  {
+   "category": "mining",
+   "title": "US seabed auction proceeds despite court setback",
+   "link": "https://www.northernminer.com/regulatory-issues/us-seabed-auction-proceeds-despite-court-setback/1003898091/",
+   "items": [
+    "8f8241fca00c0b61",
+    "8f40434842774118"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T15:00:00+00:00",
+   "score": 7.0,
+   "id": "c30"
+  },
+  {
+   "category": "mining",
+   "title": "Angola plans US$180 million for De Beers stake",
+   "link": "https://www.northernminer.com/news/angola-plans-us180-million-for-de-beers-stake/1003898116/",
+   "items": [
+    "0a565c073598858c",
+    "41645f57e8c8c946"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T14:48:00+00:00",
+   "score": 7.0,
+   "id": "c31"
+  },
+  {
+   "category": "mining",
+   "title": "Illegal Mining: 850 suspects arrested as Nigeria's mining revenue hits N101bn",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUFlIZkJaUEhRd0tOQXVRYmQ1MHVOQ3dpMWVSUDRMZDJ4d0c1WDlDaXE2b2MwUnI0UDdHdnFSbnFVQllBM2QwVUp5SFFnMHFtNjA4UEJudFUtblZhRnNkcmZtOVFZTkhZTE9fNjFPN1Z3QXgzSHlpbm9ZNnBSaG9JMmt2YUpTLVdxNFNVLWh4T1F5RXFJTVY4MHZtSzg4bm5kTHg1cUF1bXR4Vm9OU0FvVUtQdms?oc=5",
+   "items": [
+    "c6f4875fdcdd6bc7"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigeria"
+   ],
+   "latest": "2026-11-20T13:16:00+00:00",
+   "score": 7.0,
+   "id": "c32"
+  },
+  {
+   "category": "mining",
+   "title": "Chile’s $111B mining boom hinges on lithium approvals",
+   "link": "https://www.northernminer.com/analysis/chiles-111b-mining-boom-hinges-on-lithium-approvals/1003898089/",
+   "items": [
+    "8cb635237ba5862e",
+    "1d9724e286ab66a5"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T13:15:00+00:00",
+   "score": 7.0,
+   "id": "c33"
+  },
+  {
+   "category": "mining",
+   "title": "Where will Nigeria find its next Segilola?",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWduZ1o3Vy00Q3p3WVhyT2E3aEZSMy1qT1hZTkpheWhXeXp6SzhhNEE0cUVFSUZmMm1ZYW42SGZRb2l5Q252SlJqR2pPM21nUTczZm5DMVZrQWdwQlk1TEcwUVZRcEFSMVFXYUJTNG0wa2k4aDBWemgyUGFBbXNudFZVQ0VGV1F5c1lHWnZPT041QQ?oc=5",
+   "items": [
+    "61fbf0784b18419f"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigeria"
+   ],
+   "latest": "2026-11-20T12:21:26+00:00",
+   "score": 7.0,
+   "id": "c34"
+  },
+  {
+   "category": "mining",
+   "title": "Nigeria is ready to progress into an era of reliable power – Tinubu declares",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalYxZFVyanl3OHFEUXN4UzV3ZUYyVG5VcFRpZUh5Vm1hY3ZvUjFUZFI3c19VVXVHR0ZldlZKOFdWdWJTSDZjTWx4MDBsWDZSRmc4bUtaOHRNQXNDYU12VF9YZlpWSU16RERmWHlRRURhZTNGWW53NWJ4YWpGM0d0TzRMdjljOW9ydVE3WXZBWVJRUlFNY2ZJZnFXanY2MV9IM1pIX0x3bmt2dw?oc=5",
+   "items": [
+    "363c90a0f57ea78a"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigeria"
+   ],
+   "latest": "2026-11-20T09:52:00+00:00",
+   "score": 7.0,
+   "id": "c35"
+  },
+  {
+   "category": "ai",
+   "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
+   "link": "https://sspai.com/post/119311",
+   "items": [
+    "32dbb6202d720444",
+    "0c3c8b23c6caec3f"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T00:34:31+00:00",
+   "score": 7.0,
+   "id": "c36"
+  },
+  {
+   "category": "mining",
+   "title": "Vizsla delays first silver at Panuco by a year",
+   "link": "https://www.mining.com/vizsla-delays-first-silver-at-panuco-by-a-year/",
+   "items": [
+    "cc38ed64527192e0",
+    "4ab051a7744ff75b"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-19T21:55:45+00:00",
+   "score": 7.0,
+   "id": "c37"
+  },
+  {
+   "category": "mining",
+   "title": "Friedland’s Ivanhoe Electric strikes high-grade copper",
+   "link": "https://www.northernminer.com/news/friedlands-ivanhoe-electric-strikes-high-grade-copper/1003898048/",
+   "items": [
+    "e6e38500208f7765",
+    "1f51808f6581eee8"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-19T21:45:00+00:00",
+   "score": 7.0,
+   "id": "c38"
+  },
+  {
+   "category": "mining",
+   "title": "Asante weighs options as $100M deadline nears",
+   "link": "https://www.northernminer.com/news/asante-weighs-options-as-100m-deadline-nears/1003898030/",
+   "items": [
+    "3be3cf5c4d931fb7",
+    "2f5a5ab64f663f68"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-19T21:30:55+00:00",
+   "score": 7.0,
+   "id": "c39"
+  },
+  {
+   "category": "mining",
+   "title": "Alake: Mental Underdevelopment Limiting Nigeria’s Progress",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ3QwUUswUHpTM0xzbUFqX29FZmRtYlp6NF9BaUdzNjhDQTFaTWlxeldITFZiX2hHclJXa2lRY2VGVWpHMGJNdTdtRDNNdVFjU3J5X0txZi11N1hsUnQwWmxmSjFOcjVkb3ZKWmNVTkRmdXRDQzBLWXZZWEJKT2lpeW1XZmY3aDQ?oc=5",
+   "items": [
+    "bd741e866e666393"
+   ],
+   "sources": 1,
+   "hits": [
+    "Nigeria"
+   ],
+   "latest": "2026-11-19T21:20:07+00:00",
+   "score": 7.0,
+   "id": "c40"
+  },
+  {
+   "category": "mining",
+   "title": "Torex renews buyback after NYSE debut",
+   "link": "https://www.mining.com/torex-expands-us-reach-with-nyse-listing-share-buyback/",
+   "items": [
+    "68ac4dbd2ecf32a0",
+    "f04cb65b86c594a3"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-19T15:50:00+00:00",
+   "score": 7.0,
+   "id": "c41"
+  },
+  {
+   "category": "mining",
+   "title": "Codelco faces dust charges at Chilean mine",
+   "link": "https://www.northernminer.com/news/codelco-faces-dust-charges-at-chilean-mine/1003898058/",
+   "items": [
+    "d95877742a5103d4",
+    "8736ebf79ee8eb93"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-19T15:45:00+00:00",
+   "score": 7.0,
+   "id": "c42"
+  },
+  {
+   "category": "ai",
+   "title": "江苏出台“人工智能+金融”三年行动方案 发布首批五张清单",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBreGI3b2FVcmhuVVU3blMzNzBzX1ctMjlCZFNmelRRTmF0N3JnNFk0NTYxN2VEQVVGdWJlTlNLeWEweTU5dVZMN1BGVExmSnUtM1JxZEEzZnA0cGRPNW1iNEVDYUk4ZE5Vc2c?oc=5",
+   "items": [
+    "d9927b362c017cf4",
+    "2c94705d1f6c0524"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-21T07:41:22+00:00",
+   "score": 6.0,
+   "id": "c43"
+  },
+  {
+   "category": "mining",
+   "title": "紫金矿业：紫金矿业集团股份有限公司关于以集中竞价方式回购A股股份方案的公告暨回购报告书",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZi1sTERiZG1wcmR4bEtyRnZBa1lzYjRwUXlCTzZJZ2pocUUtRWhRSU5WSGt1REJsX1QzUGJQVk02ZXBDUzBjTmR2dk5qbGVxSVktUnN2T2FVWXNneF8zNWNheGNEZms3Sl9hcWFrRFJWcnpLWE9PN3JYbmtOLXIwR0RHdE9uMTh5REtVOFQ5VjM2NjNlb1Q0T2ttUlM3QXN5YjNnVDJkYWtFbDBm?oc=5",
+   "items": [
+    "b01561821ddaf631",
+    "c74dcf7ebd383dcd"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T16:36:05+00:00",
+   "score": 6.0,
+   "id": "c44"
+  },
+  {
+   "category": "mining",
+   "title": "赤峰发现一座金矿",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tb0RIOThjUzhLWmVYdWNYdW52UGZzR1I5N0tyT3dfN0tUNUpuUUNXYkxWT3V1QjVnZkNXRjctcExTTjMzdXJpMVRNOXQ?oc=5",
+   "items": [
+    "8dac9d24d0a72f3e",
+    "1c9fd916c79f53aa"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T15:24:24+00:00",
+   "score": 6.0,
+   "id": "c45"
+  },
+  {
+   "category": "explosives",
+   "title": "Ukrainian Drones Target Smolensk Region Fertilizer Plant",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc21OcTlxTDFIbURNX2lMbTJ1R0lwWUxPRTdRQnZWZ0JPbzl1OV9pWjlFRy0tZkRYblJCUjVSRWVWbEdIZF9EMlBHZVBNd1dEQUZPeExsSzlDV1FRMll4amtkSlRGa2ZoNEhuU3ZLTWFLMUk4c2ZjY1JpdlRhWUJETnRFS01ncEtzeng1a3hmYS1TY3VQeURjRmo4R05TTUV5Z01lVkh0NTg?oc=5",
+   "items": [
+    "e96e3cf26f54204d",
+    "95b0ae3e43f81a23"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T10:05:20+00:00",
+   "score": 6.0,
+   "id": "c46"
+  },
+  {
+   "category": "explosives",
+   "title": "无人机袭击了位于俄罗斯斯摩棱斯克州的道罗戈布日化工厂",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM0tYZTVCUlFFbjhMcTN0dFRPQjhpOVBtZjB0N3lDbHg5X01wTHZ1bVdKVVJVX3o1djNvR3RMMW50OGIzSjVVdlpTWnF1TDJ2cHRBTWU0emVRcFpzejVfcEhVNzktTHdKMHk2NFFhT25zSE9HNFppRTJHVk1USXNEOGFEVjNsNHY2elAtZDZqRDdXNEdna2JmSEZfSkVrbFhhS1E?oc=5",
+   "items": [
+    "b2305b29eaa4d6a4",
+    "a6e0e663ef757c40"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T02:01:00+00:00",
+   "score": 6.0,
+   "id": "c47"
+  },
+  {
+   "category": "ai",
+   "title": "“天华开物” 自主酶设计大模型在津发布",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYm9iV1dUbmxFZzJWSW9Qb1k1MV9GbG80RWUzcTBVYmxzZFRBdWh0NXYtZ0duQ0hxd0ZXX3U3TDV1WnpNeDZOM2dpSEJySWN5M0FtWmxCSzJXZGtsLWxDZ2NvWjhSdW9ndFVRTnh0bTN1ZXg1TXltYlJTR0ZhcThoN2Z3?oc=5",
+   "items": [
+    "4d351f73045971d0",
+    "1ea580dd0bb1b363"
+   ],
+   "sources": 2,
+   "hits": [],
+   "latest": "2026-11-20T01:30:18+00:00",
+   "score": 6.0,
    "id": "c48"
   },
   {
@@ -6443,19 +6338,6 @@
    "id": "c191"
   },
   {
-   "category": "mining",
-   "title": "Gold Rate Today in Cooch Behar (21 Nov 2026)",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51SVNyaHNzbl8tbW1LTUQzRkVWMGFZOW1Yb0xnZFZWbFVVZDN5ZS1FdEEtMVdZSldyVXM2V1FXZVNLX1ptT1JwTXVrVks0cmhabWVtVFdudTAydXd5Y1otdnByVXhwY0gwM3VpS0J1SDU1XzBDWXc?oc=5",
-   "items": [
-    "5a7c1c966513d5b8"
-   ],
-   "sources": 1,
-   "hits": [],
-   "latest": "2026-11-21T06:26:24+00:00",
-   "score": 3.0,
-   "id": "c192"
-  },
-  {
    "category": "explosives",
    "title": "Non-compliant tanker blasts after hitting mine near Oman port",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ3Z0Y1JvNFBBUEpQLVlPTWNjak9xc0puVGhoc1B5cG9seURmNmJuR2w2SUZ2cXJ4YWhfbHllR085SUl2M181U0RXZExURFpmdlhkWjZUMXV0VVpYTTdXSWNPRzBMQWhIekkyOVRmeDA1ZllhY3dtSXI2Mmd4S0E4aE00RVpSZThPZDd6OTlxUTIyNGhlZHpOVWRaZmJ3UQ?oc=5",
@@ -6466,7 +6348,7 @@
    "hits": [],
    "latest": "2026-11-21T06:05:00+00:00",
    "score": 3.0,
-   "id": "c193"
+   "id": "c192"
   },
   {
    "category": "mining",
@@ -6479,7 +6361,7 @@
    "hits": [],
    "latest": "2026-11-21T05:20:16+00:00",
    "score": 3.0,
-   "id": "c194"
+   "id": "c193"
   },
   {
    "category": "mining",
@@ -6492,7 +6374,7 @@
    "hits": [],
    "latest": "2026-11-21T05:05:30+00:00",
    "score": 3.0,
-   "id": "c195"
+   "id": "c194"
   },
   {
    "category": "explosives",
@@ -6505,7 +6387,7 @@
    "hits": [],
    "latest": "2026-11-21T03:46:05+00:00",
    "score": 3.0,
-   "id": "c196"
+   "id": "c195"
   },
   {
    "category": "mining",
@@ -6518,7 +6400,7 @@
    "hits": [],
    "latest": "2026-11-21T03:31:31+00:00",
    "score": 3.0,
-   "id": "c197"
+   "id": "c196"
   },
   {
    "category": "mining",
@@ -6530,6 +6412,20 @@
    "sources": 1,
    "hits": [],
    "latest": "2026-11-21T03:19:10+00:00",
+   "score": 3.0,
+   "id": "c197"
+  },
+  {
+   "category": "mining",
+   "title": "苏丹铜金矿合作或转让_行业新闻",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb0hyUkNQa21FRFFfWTFDaDBCTTVxTWVodTBuRHp1VE5kbUcxWTB3T28yY0ZzcUs1bk1tLUM3c0lvUmFLRWpMRUE3Y3lxUV9YYk5TS196UUg5U083NzYyQ2RVQUhabTZUaG42b2lVVzRIMUVibXJYbnVRUWJGdVVQSVVySF9TU0ZoVWc?oc=5",
+   "items": [
+    "8b7d4aa961d32a99",
+    "6629e6b16a5dcb34"
+   ],
+   "sources": 1,
+   "hits": [],
+   "latest": "2026-11-21T02:55:50+00:00",
    "score": 3.0,
    "id": "c198"
   },
@@ -6600,45 +6496,6 @@
   },
   {
    "category": "mining",
-   "title": "11月20日有色ETF景顺基金份额减少100万份，重仓股紫金矿业、洛阳钼业、北方稀土_基金提醒_雷达",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81N3VzcFVpTEZEamJ5akUzM3V6SUp6UWc5SGdCSDNZaE1xRGw0ODNhS1lQdUUwbDZqcTJ5QURkX3FEZkUyMk5uMENTaTA4bmVEeEYwbVRaMjc3VEN0MGdWTVBB?oc=5",
-   "items": [
-    "16d6717ded247c5b"
-   ],
-   "sources": 1,
-   "hits": [],
-   "latest": "2026-11-20T22:47:57+00:00",
-   "score": 3.0,
-   "id": "c204"
-  },
-  {
-   "category": "mining",
-   "title": "11月20日黄金股ETF华夏基金份额增加1300万份，重仓股紫金矿业、赤峰黄金、中金黄金_基金提醒_雷达",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IR1dKLVB3VHZ6YlhZNFFrQWdwd3RNM2FDeC12cW9ZTXFrVFY4N1o1VEdmWjhROTFoTzJxWUM4SkJOeGVEMTY3ajg2Q2ZYV2Q4VmhFRDlTLWphaHc1QWQzX2Nn?oc=5",
-   "items": [
-    "07517e31d9efcdb8"
-   ],
-   "sources": 1,
-   "hits": [],
-   "latest": "2026-11-20T22:38:40+00:00",
-   "score": 3.0,
-   "id": "c205"
-  },
-  {
-   "category": "mining",
-   "title": "11月20日广发中证有色金属矿业主题ETF基金份额减少300万份，重仓股紫金矿业、洛阳钼业、北方稀土",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42N1dNWHN5SFd6ekhNZzdLc3psTXhqSlZIRXhkUjVQaks2QnVXbEpJWWkzVG56YkpEU0w1UFptU0xZdmtKMGR5OGt5LTd3YkFjTVN1bVRHWUpDODBHSjVzOWxn?oc=5",
-   "items": [
-    "d538ad268f3ef5ea"
-   ],
-   "sources": 1,
-   "hits": [],
-   "latest": "2026-11-20T22:31:38+00:00",
-   "score": 3.0,
-   "id": "c206"
-  },
-  {
-   "category": "mining",
    "title": "智汇矿业(02546.HK)：中期实现纯利9889.1万元 同比增加272.1%",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TNWFRZUtMS0hWdHNxWlEzdl82UGtqamtKR1FTWFJWM0RLZzM5RnpuazJsdzVOTVExUVhIVW9jZTVFb2JOb0ZsWUV6VVJFT0N3TWd1WEdZVkVSNWRjd2xXVmFNWHEtQ3dvTWc?oc=5",
    "items": [
@@ -6648,7 +6505,7 @@
    "hits": [],
    "latest": "2026-11-20T20:38:43+00:00",
    "score": 3.0,
-   "id": "c207"
+   "id": "c204"
   },
   {
    "category": "mining",
@@ -6661,7 +6518,7 @@
    "hits": [],
    "latest": "2026-11-20T20:05:40+00:00",
    "score": 3.0,
-   "id": "c208"
+   "id": "c205"
   },
   {
    "category": "mining",
@@ -6674,7 +6531,7 @@
    "hits": [],
    "latest": "2026-11-20T19:10:45+00:00",
    "score": 3.0,
-   "id": "c209"
+   "id": "c206"
   },
   {
    "category": "ai",
@@ -6687,7 +6544,7 @@
    "hits": [],
    "latest": "2026-11-20T19:02:16+00:00",
    "score": 3.0,
-   "id": "c210"
+   "id": "c207"
   },
   {
    "category": "mining",
@@ -6700,7 +6557,7 @@
    "hits": [],
    "latest": "2026-11-20T16:58:05+00:00",
    "score": 3.0,
-   "id": "c211"
+   "id": "c208"
   },
   {
    "category": "mining",
@@ -6713,7 +6570,7 @@
    "hits": [],
    "latest": "2026-11-20T16:57:09+00:00",
    "score": 3.0,
-   "id": "c212"
+   "id": "c209"
   },
   {
    "category": "mining",
@@ -6726,7 +6583,7 @@
    "hits": [],
    "latest": "2026-11-20T16:55:29+00:00",
    "score": 3.0,
-   "id": "c213"
+   "id": "c210"
   },
   {
    "category": "mining",
@@ -6740,20 +6597,7 @@
    "hits": [],
    "latest": "2026-11-20T16:25:17+00:00",
    "score": 3.0,
-   "id": "c214"
-  },
-  {
-   "category": "mining",
-   "title": "苏丹铜金矿合作或转让_行业新闻",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb0hyUkNQa21FRFFfWTFDaDBCTTVxTWVodTBuRHp1VE5kbUcxWTB3T28yY0ZzcUs1bk1tLUM3c0lvUmFLRWpMRUE3Y3lxUV9YYk5TS196UUg5U083NzYyQ2RVQUhabTZUaG42b2lVVzRIMUVibXJYbnVRUWJGdVVQSVVySF9TU0ZoVWc?oc=5",
-   "items": [
-    "6629e6b16a5dcb34"
-   ],
-   "sources": 1,
-   "hits": [],
-   "latest": "2026-11-20T16:10:02+00:00",
-   "score": 3.0,
-   "id": "c215"
+   "id": "c211"
   },
   {
    "category": "ai",
@@ -6766,7 +6610,7 @@
    "hits": [],
    "latest": "2026-11-20T16:07:39+00:00",
    "score": 3.0,
-   "id": "c216"
+   "id": "c212"
   },
   {
    "category": "explosives",
@@ -6779,7 +6623,7 @@
    "hits": [],
    "latest": "2026-11-20T15:49:58+00:00",
    "score": 3.0,
-   "id": "c217"
+   "id": "c213"
   },
   {
    "category": "explosives",
@@ -6792,7 +6636,7 @@
    "hits": [],
    "latest": "2026-11-20T15:19:19+00:00",
    "score": 3.0,
-   "id": "c218"
+   "id": "c214"
   },
   {
    "category": "mining",
@@ -6805,7 +6649,7 @@
    "hits": [],
    "latest": "2026-11-20T14:47:00+00:00",
    "score": 3.0,
-   "id": "c219"
+   "id": "c215"
   },
   {
    "category": "mining",
@@ -6818,7 +6662,7 @@
    "hits": [],
    "latest": "2026-11-20T14:38:12+00:00",
    "score": 3.0,
-   "id": "c220"
+   "id": "c216"
   },
   {
    "category": "mining",
@@ -6831,7 +6675,7 @@
    "hits": [],
    "latest": "2026-11-20T13:59:39+00:00",
    "score": 3.0,
-   "id": "c221"
+   "id": "c217"
   },
   {
    "category": "mining",
@@ -6844,7 +6688,7 @@
    "hits": [],
    "latest": "2026-11-20T13:15:37+00:00",
    "score": 3.0,
-   "id": "c222"
+   "id": "c218"
   },
   {
    "category": "mining",
@@ -6857,7 +6701,7 @@
    "hits": [],
    "latest": "2026-11-20T12:19:31+00:00",
    "score": 3.0,
-   "id": "c223"
+   "id": "c219"
   },
   {
    "category": "mining",
@@ -6870,7 +6714,7 @@
    "hits": [],
    "latest": "2026-11-20T12:02:48+00:00",
    "score": 3.0,
-   "id": "c224"
+   "id": "c220"
   },
   {
    "category": "explosives",
@@ -6883,7 +6727,7 @@
    "hits": [],
    "latest": "2026-11-20T12:01:29+00:00",
    "score": 3.0,
-   "id": "c225"
+   "id": "c221"
   },
   {
    "category": "explosives",
@@ -6896,7 +6740,7 @@
    "hits": [],
    "latest": "2026-11-20T12:01:16+00:00",
    "score": 3.0,
-   "id": "c226"
+   "id": "c222"
   },
   {
    "category": "explosives",
@@ -6909,7 +6753,7 @@
    "hits": [],
    "latest": "2026-11-20T11:25:04+00:00",
    "score": 3.0,
-   "id": "c227"
+   "id": "c223"
   },
   {
    "category": "ai",
@@ -6922,7 +6766,7 @@
    "hits": [],
    "latest": "2026-11-20T11:11:08+00:00",
    "score": 3.0,
-   "id": "c228"
+   "id": "c224"
   },
   {
    "category": "explosives",
@@ -6935,7 +6779,7 @@
    "hits": [],
    "latest": "2026-11-20T10:46:48+00:00",
    "score": 3.0,
-   "id": "c229"
+   "id": "c225"
   },
   {
    "category": "mining",
@@ -6948,7 +6792,7 @@
    "hits": [],
    "latest": "2026-11-20T10:12:06+00:00",
    "score": 3.0,
-   "id": "c230"
+   "id": "c226"
   },
   {
    "category": "ai",
@@ -6961,7 +6805,7 @@
    "hits": [],
    "latest": "2026-11-20T09:48:49+00:00",
    "score": 3.0,
-   "id": "c231"
+   "id": "c227"
   },
   {
    "category": "ai",
@@ -6974,7 +6818,7 @@
    "hits": [],
    "latest": "2026-11-20T09:43:00+00:00",
    "score": 3.0,
-   "id": "c232"
+   "id": "c228"
   },
   {
    "category": "ai",
@@ -6987,7 +6831,7 @@
    "hits": [],
    "latest": "2026-11-20T09:17:05+00:00",
    "score": 3.0,
-   "id": "c233"
+   "id": "c229"
   },
   {
    "category": "mining",
@@ -7000,7 +6844,7 @@
    "hits": [],
    "latest": "2026-11-20T09:04:53+00:00",
    "score": 3.0,
-   "id": "c234"
+   "id": "c230"
   },
   {
    "category": "mining",
@@ -7013,7 +6857,7 @@
    "hits": [],
    "latest": "2026-11-20T08:20:19+00:00",
    "score": 3.0,
-   "id": "c235"
+   "id": "c231"
   },
   {
    "category": "ai",
@@ -7026,7 +6870,7 @@
    "hits": [],
    "latest": "2026-11-20T08:03:46+00:00",
    "score": 3.0,
-   "id": "c236"
+   "id": "c232"
   },
   {
    "category": "mining",
@@ -7039,7 +6883,7 @@
    "hits": [],
    "latest": "2026-11-20T07:43:18+00:00",
    "score": 3.0,
-   "id": "c237"
+   "id": "c233"
   },
   {
    "category": "explosives",
@@ -7052,7 +6896,7 @@
    "hits": [],
    "latest": "2026-11-20T07:20:44+00:00",
    "score": 3.0,
-   "id": "c238"
+   "id": "c234"
   },
   {
    "category": "mining",
@@ -7065,7 +6909,7 @@
    "hits": [],
    "latest": "2026-11-20T06:30:00+00:00",
    "score": 3.0,
-   "id": "c239"
+   "id": "c235"
   },
   {
    "category": "explosives",
@@ -7078,7 +6922,7 @@
    "hits": [],
    "latest": "2026-11-20T05:46:05+00:00",
    "score": 3.0,
-   "id": "c240"
+   "id": "c236"
   },
   {
    "category": "explosives",
@@ -7091,7 +6935,7 @@
    "hits": [],
    "latest": "2026-11-20T04:43:25+00:00",
    "score": 3.0,
-   "id": "c241"
+   "id": "c237"
   },
   {
    "category": "explosives",
@@ -7104,7 +6948,7 @@
    "hits": [],
    "latest": "2026-11-20T04:16:58+00:00",
    "score": 3.0,
-   "id": "c242"
+   "id": "c238"
   },
   {
    "category": "ai",
@@ -7117,7 +6961,7 @@
    "hits": [],
    "latest": "2026-11-20T04:04:03+00:00",
    "score": 3.0,
-   "id": "c243"
+   "id": "c239"
   },
   {
    "category": "explosives",
@@ -7130,7 +6974,7 @@
    "hits": [],
    "latest": "2026-11-20T03:09:00+00:00",
    "score": 3.0,
-   "id": "c244"
+   "id": "c240"
   },
   {
    "category": "ai",
@@ -7143,7 +6987,7 @@
    "hits": [],
    "latest": "2026-11-20T02:55:28+00:00",
    "score": 3.0,
-   "id": "c245"
+   "id": "c241"
   },
   {
    "category": "ai",
@@ -7157,7 +7001,7 @@
    "hits": [],
    "latest": "2026-11-20T02:34:59+00:00",
    "score": 3.0,
-   "id": "c246"
+   "id": "c242"
   },
   {
    "category": "explosives",
@@ -7170,7 +7014,7 @@
    "hits": [],
    "latest": "2026-11-20T02:21:00+00:00",
    "score": 3.0,
-   "id": "c247"
+   "id": "c243"
   },
   {
    "category": "explosives",
@@ -7183,7 +7027,7 @@
    "hits": [],
    "latest": "2026-11-20T01:10:54+00:00",
    "score": 3.0,
-   "id": "c248"
+   "id": "c244"
   },
   {
    "category": "ai",
@@ -7196,7 +7040,7 @@
    "hits": [],
    "latest": "2026-11-20T00:00:00+00:00",
    "score": 3.0,
-   "id": "c249"
+   "id": "c245"
   },
   {
    "category": "ai",
@@ -7209,7 +7053,7 @@
    "hits": [],
    "latest": "2026-11-19T23:49:20+00:00",
    "score": 3.0,
-   "id": "c250"
+   "id": "c246"
   },
   {
    "category": "explosives",
@@ -7222,7 +7066,7 @@
    "hits": [],
    "latest": "2026-11-19T23:39:00+00:00",
    "score": 3.0,
-   "id": "c251"
+   "id": "c247"
   },
   {
    "category": "explosives",
@@ -7235,7 +7079,7 @@
    "hits": [],
    "latest": "2026-11-19T23:08:59+00:00",
    "score": 3.0,
-   "id": "c252"
+   "id": "c248"
   },
   {
    "category": "mining",
@@ -7248,7 +7092,7 @@
    "hits": [],
    "latest": "2026-11-19T20:40:54+00:00",
    "score": 3.0,
-   "id": "c253"
+   "id": "c249"
   },
   {
    "category": "explosives",
@@ -7261,7 +7105,7 @@
    "hits": [],
    "latest": "2026-11-19T18:50:00+00:00",
    "score": 3.0,
-   "id": "c254"
+   "id": "c250"
   },
   {
    "category": "explosives",
@@ -7274,7 +7118,7 @@
    "hits": [],
    "latest": "2026-11-19T17:58:15+00:00",
    "score": 3.0,
-   "id": "c255"
+   "id": "c251"
   },
   {
    "category": "explosives",
@@ -7287,7 +7131,7 @@
    "hits": [],
    "latest": "2026-11-19T16:57:00+00:00",
    "score": 3.0,
-   "id": "c256"
+   "id": "c252"
   },
   {
    "category": "mining",
@@ -7300,7 +7144,7 @@
    "hits": [],
    "latest": "2026-11-19T16:28:29+00:00",
    "score": 3.0,
-   "id": "c257"
+   "id": "c253"
   },
   {
    "category": "explosives",
@@ -7313,7 +7157,7 @@
    "hits": [],
    "latest": "2026-11-19T14:56:23+00:00",
    "score": 3.0,
-   "id": "c258"
+   "id": "c254"
   },
   {
    "category": "ai",
@@ -7326,7 +7170,7 @@
    "hits": [],
    "latest": "2026-11-19T14:42:22+00:00",
    "score": 3.0,
-   "id": "c259"
+   "id": "c255"
   },
   {
    "category": "explosives",
@@ -7339,7 +7183,7 @@
    "hits": [],
    "latest": "2026-11-19T14:12:40+00:00",
    "score": 3.0,
-   "id": "c260"
+   "id": "c256"
   },
   {
    "category": "mining",
@@ -7352,7 +7196,7 @@
    "hits": [],
    "latest": "2026-11-19T13:45:10+00:00",
    "score": 3.0,
-   "id": "c261"
+   "id": "c257"
   },
   {
    "category": "mining",
@@ -7365,7 +7209,7 @@
    "hits": [],
    "latest": "2026-11-19T12:08:59+00:00",
    "score": 3.0,
-   "id": "c262"
+   "id": "c258"
   },
   {
    "category": "ai",
@@ -7378,7 +7222,7 @@
    "hits": [],
    "latest": "2026-11-18T19:54:56+00:00",
    "score": 3.0,
-   "id": "c263"
+   "id": "c259"
   },
   {
    "category": "ai",
@@ -7391,7 +7235,7 @@
    "hits": [],
    "latest": "2026-11-18T18:53:43+00:00",
    "score": 3.0,
-   "id": "c264"
+   "id": "c260"
   },
   {
    "category": "ai",
@@ -7404,7 +7248,7 @@
    "hits": [],
    "latest": "2026-11-18T18:13:42+00:00",
    "score": 3.0,
-   "id": "c265"
+   "id": "c261"
   },
   {
    "category": "ai",
@@ -7417,7 +7261,7 @@
    "hits": [],
    "latest": "2026-11-18T15:00:23+00:00",
    "score": 3.0,
-   "id": "c266"
+   "id": "c262"
   },
   {
    "category": "ai",
@@ -7430,7 +7274,7 @@
    "hits": [],
    "latest": null,
    "score": 3.0,
-   "id": "c267"
+   "id": "c263"
   },
   {
    "category": "ai",
@@ -7443,7 +7287,7 @@
    "hits": [],
    "latest": null,
    "score": 3.0,
-   "id": "c268"
+   "id": "c264"
   },
   {
    "category": "ai",
@@ -7456,7 +7300,7 @@
    "hits": [],
    "latest": null,
    "score": 3.0,
-   "id": "c269"
+   "id": "c265"
   },
   {
    "category": "ai",
@@ -7469,7 +7313,7 @@
    "hits": [],
    "latest": null,
    "score": 3.0,
-   "id": "c270"
+   "id": "c266"
   },
   {
    "category": "ai",
@@ -7482,12 +7326,132 @@
    "hits": [],
    "latest": null,
    "score": 3.0,
-   "id": "c271"
+   "id": "c267"
   }
  ],
  "digest": null,
  "digest_note": "未设置 LLM_API_KEY",
  "status": [
+  {
+   "name": "国际民爆企业",
+   "category": "explosives",
+   "ok": true,
+   "fetched": 11,
+   "new": 10,
+   "error": ""
+  },
+  {
+   "name": "硝酸铵市场",
+   "category": "explosives",
+   "ok": true,
+   "fetched": 10,
+   "new": 11,
+   "error": ""
+  },
+  {
+   "name": "爆破技术与安全（英文）",
+   "category": "explosives",
+   "ok": true,
+   "fetched": 16,
+   "new": 15,
+   "error": ""
+  },
+  {
+   "name": "民爆行业",
+   "category": "explosives",
+   "ok": true,
+   "fetched": 4,
+   "new": 2,
+   "error": ""
+  },
+  {
+   "name": "国内民爆企业",
+   "category": "explosives",
+   "ok": true,
+   "fetched": 11,
+   "new": 10,
+   "error": ""
+  },
+  {
+   "name": "硝酸铵（中文）",
+   "category": "explosives",
+   "ok": true,
+   "fetched": 10,
+   "new": 9,
+   "error": ""
+  },
+  {
+   "name": "MINING.COM",
+   "category": "mining",
+   "ok": true,
+   "fetched": 36,
+   "new": 20,
+   "error": ""
+  },
+  {
+   "name": "International Mining",
+   "category": "mining",
+   "ok": true,
+   "fetched": 12,
+   "new": 12,
+   "error": ""
+  },
+  {
+   "name": "The Northern Miner",
+   "category": "mining",
+   "ok": true,
+   "fetched": 20,
+   "new": 20,
+   "error": ""
+  },
+  {
+   "name": "Mining Technology",
+   "category": "mining",
+   "ok": true,
+   "fetched": 3,
+   "new": 4,
+   "error": ""
+  },
+  {
+   "name": "Mining Review Africa",
+   "category": "mining",
+   "ok": true,
+   "fetched": 2,
+   "new": 2,
+   "error": ""
+  },
+  {
+   "name": "Australian Mining",
+   "category": "mining",
+   "ok": true,
+   "fetched": 5,
+   "new": 5,
+   "error": ""
+  },
+  {
+   "name": "尼日利亚矿业新闻",
+   "category": "mining",
+   "ok": true,
+   "fetched": 30,
+   "new": 30,
+   "error": ""
+  },
+  {
+   "name": "黄金市场新闻",
+   "category": "mining",
+   "ok": true,
+   "fetched": 100,
+   "new": 17,
+   "error": ""
+  },
+  {
+   "name": "中文矿业新闻",
+   "category": "mining",
+   "ok": true,
+   "fetched": 89,
+   "new": 30,
+   "error": ""
+  },
   {
    "name": "OpenAI",
    "category": "ai",
@@ -7630,126 +7594,6 @@
    "ok": true,
    "fetched": 10,
    "new": 5,
-   "error": ""
-  },
-  {
-   "name": "MINING.COM",
-   "category": "mining",
-   "ok": true,
-   "fetched": 36,
-   "new": 20,
-   "error": ""
-  },
-  {
-   "name": "International Mining",
-   "category": "mining",
-   "ok": true,
-   "fetched": 12,
-   "new": 12,
-   "error": ""
-  },
-  {
-   "name": "The Northern Miner",
-   "category": "mining",
-   "ok": true,
-   "fetched": 20,
-   "new": 20,
-   "error": ""
-  },
-  {
-   "name": "Mining Technology",
-   "category": "mining",
-   "ok": true,
-   "fetched": 3,
-   "new": 4,
-   "error": ""
-  },
-  {
-   "name": "Mining Review Africa",
-   "category": "mining",
-   "ok": true,
-   "fetched": 2,
-   "new": 2,
-   "error": ""
-  },
-  {
-   "name": "Australian Mining",
-   "category": "mining",
-   "ok": true,
-   "fetched": 5,
-   "new": 5,
-   "error": ""
-  },
-  {
-   "name": "尼日利亚矿业新闻",
-   "category": "mining",
-   "ok": true,
-   "fetched": 30,
-   "new": 30,
-   "error": ""
-  },
-  {
-   "name": "黄金市场新闻",
-   "category": "mining",
-   "ok": true,
-   "fetched": 100,
-   "new": 24,
-   "error": ""
-  },
-  {
-   "name": "中文矿业新闻",
-   "category": "mining",
-   "ok": true,
-   "fetched": 100,
-   "new": 32,
-   "error": ""
-  },
-  {
-   "name": "国际民爆企业",
-   "category": "explosives",
-   "ok": true,
-   "fetched": 11,
-   "new": 10,
-   "error": ""
-  },
-  {
-   "name": "硝酸铵市场",
-   "category": "explosives",
-   "ok": true,
-   "fetched": 9,
-   "new": 11,
-   "error": ""
-  },
-  {
-   "name": "爆破技术与安全（英文）",
-   "category": "explosives",
-   "ok": true,
-   "fetched": 16,
-   "new": 15,
-   "error": ""
-  },
-  {
-   "name": "民爆行业",
-   "category": "explosives",
-   "ok": true,
-   "fetched": 4,
-   "new": 2,
-   "error": ""
-  },
-  {
-   "name": "国内民爆企业",
-   "category": "explosives",
-   "ok": true,
-   "fetched": 12,
-   "new": 10,
-   "error": ""
-  },
-  {
-   "name": "硝酸铵（中文）",
-   "category": "explosives",
-   "ok": true,
-   "fetched": 10,
-   "new": 9,
    "error": ""
   }
  ]
