@@ -88,7 +88,7 @@ categories:
       - name: 爆破技术与安全（英文）
         type: news
         lang: en
-        query: blasting mine OR "mining explosives" OR "electronic detonators"
+        query: (blasting mine) OR "mining explosives" OR "electronic detonators"
         limit: 15
       - name: 民爆行业
         type: news
@@ -119,7 +119,7 @@ categories:
       - name: 非洲矿业新闻
         type: news
         lang: en
-        query: Africa mining OR "West Africa gold"
+        query: Africa (mining OR "gold mine")
         limit: 15
       - name: Mining Review Africa
         type: news
@@ -133,7 +133,7 @@ categories:
         type: news
         lang: en
         region: NG
-        query: Nigeria mining OR "solid minerals"
+        query: Nigeria (mining OR "solid minerals")
         limit: 15
       - name: 黄金市场新闻
         type: news
@@ -182,7 +182,7 @@ categories:
       - name: 中文 AI 新闻
         type: news
         lang: zh
-        query: 大模型 OR 人工智能 发布
+        query: (大模型 OR 人工智能) 发布
         limit: 15
 
   - id: tech
