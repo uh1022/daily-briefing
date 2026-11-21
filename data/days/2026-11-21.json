@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T20:16+08:00",
+ "generated_at": "2026-11-21T20:19+08:00",
  "categories": [
   {
    "id": "explosives",
@@ -7344,7 +7344,7 @@
    "name": "硝酸铵市场",
    "category": "explosives",
    "ok": true,
-   "fetched": 10,
+   "fetched": 9,
    "new": 11,
    "error": ""
   },
@@ -7368,7 +7368,7 @@
    "name": "国内民爆企业",
    "category": "explosives",
    "ok": true,
-   "fetched": 11,
+   "fetched": 12,
    "new": 10,
    "error": ""
   },
@@ -7448,7 +7448,7 @@
    "name": "中文矿业新闻",
    "category": "mining",
    "ok": true,
-   "fetched": 89,
+   "fetched": 86,
    "new": 30,
    "error": ""
   },
@@ -7519,16 +7519,16 @@
   {
    "name": "量子位",
    "category": "ai",
-   "ok": true,
-   "fetched": 10,
-   "new": 10,
-   "error": ""
+   "ok": false,
+   "fetched": 0,
+   "new": 0,
+   "error": "连接超时"
   },
   {
    "name": "中文 AI 新闻",
    "category": "ai",
    "ok": true,
-   "fetched": 16,
+   "fetched": 15,
    "new": 17,
    "error": ""
   },
