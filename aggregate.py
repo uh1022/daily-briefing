@@ -88,6 +88,7 @@ def cluster(items: list[dict], keyword_weights: dict[str, float], threshold: flo
         clusters.append({
             "category": category,
             "title": rep["title"],
+            "rep": rep["id"],
             "link": rep["link"],
             "items": [i["id"] for i in sorted(its, key=lambda i: i["published"] or "", reverse=True)],
             "sources": len(publishers),
