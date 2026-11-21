@@ -18,7 +18,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import parse_qs, quote_plus, urljoin, urlparse
 
 import feedparser
 import requests
@@ -68,7 +68,11 @@ def clean_text(raw: str, limit: int = 180) -> str:
     return text[:limit] + ("…" if len(text) > limit else "")
 
 
-def news_url(query: str, lang: str, region: str | None) -> str:
+def news_url(query: str, lang: str, region: str | None, provider: str = "bing") -> str:
+    if provider == "bing":
+        # 必应新闻 RSS，按时间排序；条目链接可以直接还原成原文地址
+        url = f"https://www.bing.com/news/search?q={quote_plus(query)}&format=rss&qft=sortbydate%3d%221%22&count=50"
+        return url + (f"&cc={region}" if region else "")
     q = quote_plus(f"{query} when:2d")
     if lang == "zh":
         return f"https://news.google.com/rss/search?q={q}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
@@ -80,6 +84,15 @@ def fetch(url: str) -> bytes:
     resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
     return resp.content
+
+
+def direct_link(link: str) -> str:
+    """必应新闻的跳转链接还原成原文地址。"""
+    if "bing.com/news/apiclick" in link:
+        target = parse_qs(urlparse(link).query).get("url", [""])[0]
+        if target.startswith("http"):
+            return target
+    return link
 
 
 def to_dt(struct) -> datetime | None:
@@ -102,12 +115,12 @@ def parse_rss(content: bytes, src: dict) -> list[dict]:
     is_news = src["type"] == "news"
     for e in fp.entries:
         title = clean_text(e.get("title", ""), 300)
-        link = e.get("link", "")
+        link = direct_link(e.get("link", ""))
         if not title or not link:
             continue
         origin = ""
         if is_news:
-            origin = (e.get("source") or {}).get("title", "") if isinstance(e.get("source"), dict) else ""
+            origin = e.get("news_source", "") or ((e.get("source") or {}).get("title", "") if isinstance(e.get("source"), dict) else "")
             if origin and title.endswith(" - " + origin):
                 title = title[: -len(origin) - 3].strip()
             if len(title.strip(" -–|")) < 6:
@@ -146,7 +159,7 @@ def parse_html(content: bytes, src: dict) -> list[dict]:
 def collect(src: dict) -> tuple[dict, list[dict] | None, str | None]:
     try:
         if src["type"] == "news":
-            url = news_url(src["query"], src.get("lang", "en"), src.get("region"))
+            url = news_url(src["query"], src.get("lang", "en"), src.get("region"), src.get("provider", "bing"))
             return src, parse_rss(fetch(url), src), None
         if src["type"] == "rss":
             return src, parse_rss(fetch(src["url"]), src), None
@@ -218,6 +231,7 @@ def main() -> int:
             src = dict(src)
             src["category"] = cat["id"]
             src["sid"] = f"{cat['id']}/{src['name']}"
+            src.setdefault("provider", settings.get("news_provider", "bing"))
             sources.append(src)
 
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -278,6 +292,8 @@ def main() -> int:
         merged = new_items
     # 按当前的关注词和排除词重新整理当天全部条目（改了配置当天就生效）
     merged = [i for i in merged if not excluded(i["title"]) and len(i["title"].strip(" -–|")) >= 6]
+    if settings.get("news_provider", "bing") != "google":
+        merged = [i for i in merged if "news.google.com" not in i["link"]]  # 去掉之前用谷歌新闻抓到的跳转链接
     for i in merged:
         i["hits"] = match(f"{i['title']} {i['summary']}")
 
