@@ -42,6 +42,7 @@
 - `briefing.py`：抓取和生成脚本
 - `aggregate.py`：同一事件合并、重点打分（规则）
 - `llm.py`：大模型整理（可选）
+- `translate.py`：英文标题和摘要机器翻译成中文（微软翻译为主、谷歌翻译备用，都是免费接口；失败时显示原文）
 - `template/index.html`：网页模板
 - `data/`：历史数据（每天一个文件，自动保留 60 天）
 - `.github/workflows/daily.yml`：定时任务
