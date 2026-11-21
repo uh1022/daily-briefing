@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T19:56+08:00",
+ "generated_at": "2026-11-21T19:59+08:00",
  "categories": [
   {
    "id": "ai",
@@ -3396,6 +3396,63 @@
    "category": "explosives",
    "published": "2026-11-20T12:01:16+00:00",
    "hits": []
+  },
+  {
+   "id": "1dcbd1270bbbe2d9",
+   "title": "海南首个备案文旅大模型发布 鱼多多智能体11月18日落户荣山寮",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFZWhtcVEtQ18zQ09sV1Fkb19nYTE5dWNVZE5naW9keEw4akVuMVRNVU03dlRHaGJLU25iTFJTSUFIQWVYUHBablFaY3J0QnpoSXUwWWh4RXdmNE5vV0t1RzN3?oc=5",
+   "summary": "",
+   "source": "中文 AI 新闻",
+   "origin": "观点网",
+   "category": "ai",
+   "published": "2026-11-20T02:34:59+00:00",
+   "hits": []
+  },
+  {
+   "id": "71bab14bca481795",
+   "title": "India Gold price today: Prices hold steady, FXStreet data show",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUm9tN1M4d0ZiRWpLRVVQMXU2QUhJaHA4WlBlanMxUG9Xd3RSQ2xvWlVyck4tdl9SUWpGbWhnQ3h6akRhb05ibWoxdFlxU0RMU1lXWnhGbXJ0QTJPNlZHbHR3Z2o2T0t5MXRWVTd2dDQxX0VCME5KY3NlQlpGUzllUXNndFpFOEROdnpJeDVNbGhFLXgxUXk0SDFpMWJyVUx4Mk5RaGRaYUx2NFdYajRoaE5zNW10VGVoOEhLYkN1U0NBVGhRTnAxSEx3?oc=5",
+   "summary": "",
+   "source": "黄金市场新闻",
+   "origin": "www.tmgm.com",
+   "category": "mining",
+   "published": "2026-11-19T13:45:10+00:00",
+   "hits": [
+    "gold price"
+   ]
+  },
+  {
+   "id": "19bcf79fe2444ff2",
+   "title": "Investigation reveals the cause of fatal workplace incident at Hunter mine",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcmo0MXpnQVdpWU4xenE2VUw5dmJpTFp0WWgyQU1mOE9JN1lmS0toRm5RZFMtcEdGeXZhWkhZR3oyMmNXR21sUjR3OXRtdFlieEt0NFoxYnZjdDJRQm1BU0hxLXNNREQybDNTdXdxSE5HR1d0b0ZDTXdzcUkxZXZZeTBJNWNtMDVXVGkzNlQtODRQS2NCUmxwekJpd21KR3JDRXpKblRNMXBGRnJSQXNCdWdMUQ?oc=5",
+   "summary": "",
+   "source": "爆破技术与安全（英文）",
+   "origin": "Newcastle Herald",
+   "category": "explosives",
+   "published": "2026-11-21T00:52:16+00:00",
+   "hits": []
+  },
+  {
+   "id": "a70e92effa5ed82e",
+   "title": "FAA Lists Three Drone-Only TFRs in Utah and California, Anchorage VIP TFR Thursday, White Sands Closures Through Friday",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45QlFtWEdMMXVQMV9FV1Nnd1NiYlNITmtUbmRFRUVHM21GWkRaTXBQM1dMUUFGakVqY3lMcDhlRUp3alRRaUxiUE83bG0ySmhkQUJKMThzeEFldUNLV2JDNVpqX3dWd1VsNkZuekdTeG1XSWc?oc=5",
+   "summary": "",
+   "source": "爆破技术与安全（英文）",
+   "origin": "Avi-Go",
+   "category": "explosives",
+   "published": "2026-11-19T23:08:59+00:00",
+   "hits": []
+  },
+  {
+   "id": "6b0c6b9e99d9e83e",
+   "title": "金奥博(002917.SZ)控股股东提议4000万元至8000万元回购公司股份",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA4OEZSeldKc0FCTkR5aGpNY0E0dGQ5aEtGa01KeFNDMUFlTzFkWHlHU1lINTRCVkh0Z0sza0M1clljaWZSek5ndkh0dTI?oc=5",
+   "summary": "",
+   "source": "国内民爆企业",
+   "origin": "凤凰网",
+   "category": "explosives",
+   "published": "2026-11-20T10:44:15+00:00",
+   "hits": []
   }
  ],
  "status": [
@@ -3476,7 +3533,7 @@
    "category": "ai",
    "ok": true,
    "fetched": 15,
-   "new": 15,
+   "new": 16,
    "error": ""
   },
   {
@@ -3604,14 +3661,14 @@
    "category": "mining",
    "ok": true,
    "fetched": 100,
-   "new": 20,
+   "new": 21,
    "error": ""
   },
   {
    "name": "中文矿业新闻",
    "category": "mining",
    "ok": true,
-   "fetched": 86,
+   "fetched": 87,
    "new": 17,
    "error": ""
   },
@@ -3627,7 +3684,7 @@
    "name": "硝酸铵市场",
    "category": "explosives",
    "ok": true,
-   "fetched": 11,
+   "fetched": 9,
    "new": 11,
    "error": ""
   },
@@ -3636,7 +3693,7 @@
    "category": "explosives",
    "ok": true,
    "fetched": 16,
-   "new": 13,
+   "new": 15,
    "error": ""
   },
   {
@@ -3652,7 +3709,7 @@
    "category": "explosives",
    "ok": true,
    "fetched": 12,
-   "new": 10,
+   "new": 11,
    "error": ""
   },
   {
