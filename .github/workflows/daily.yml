@@ -1,0 +1,63 @@
+name: 每日汇总
+
+on:
+  schedule:
+    # 北京时间每天 08:17 开始运行（UTC 00:17），9 点前页面更新完成
+    - cron: "17 0 * * *"
+  # 允许在 Actions 页面手动点"Run workflow"
+  workflow_dispatch:
+  # 改了信息源或代码后自动跑一次
+  push:
+    branches: [main]
+    paths:
+      - sources.yaml
+      - briefing.py
+      - template/**
+      - .github/workflows/daily.yml
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 抓取并生成页面
+        run: python briefing.py
+
+      - name: 保存历史数据
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "数据更新 $(TZ=Asia/Shanghai date +%F)"
+          git pull --rebase --autostash || true
+          git push
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v5
