@@ -116,11 +116,11 @@ categories:
       - name: The Northern Miner
         type: rss
         url: https://www.northernminer.com/feed/
-      - name: Mining Technology
+      - name: 非洲矿业新闻
         type: news
         lang: en
-        query: site:mining-technology.com
-        limit: 10
+        query: Africa mining OR "West Africa gold"
+        limit: 15
       - name: Mining Review Africa
         type: news
         lang: en
