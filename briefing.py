@@ -27,6 +27,7 @@ from bs4 import BeautifulSoup
 
 import aggregate
 import llm
+import translate
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
@@ -86,6 +87,17 @@ def fetch(url: str) -> bytes:
     return resp.content
 
 
+MONTHS = re.compile(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\b|\b(mon|tue|wed|thu|fri|sat|sun)[a-z]*day\b", re.I)
+
+
+def meaningful(title: str) -> bool:
+    """过滤只有日期、数字之类的标题（例如直播页"November 20, 2026"）。"""
+    t = MONTHS.sub(" ", title)
+    words = re.findall(r"[A-Za-z]{3,}", t)
+    cjk = re.findall("[\u4e00-\u9fff]", t)
+    return len(words) >= 2 or len(cjk) >= 4
+
+
 def direct_link(link: str) -> str:
     """必应新闻的跳转链接还原成原文地址。"""
     if "bing.com/news/apiclick" in link:
@@ -123,7 +135,7 @@ def parse_rss(content: bytes, src: dict) -> list[dict]:
             origin = e.get("news_source", "") or ((e.get("source") or {}).get("title", "") if isinstance(e.get("source"), dict) else "")
             if origin and title.endswith(" - " + origin):
                 title = title[: -len(origin) - 3].strip()
-            if len(title.strip(" -–|")) < 6:
+            if len(title.strip(" -–|")) < 6 or not meaningful(title):
                 continue
         summary = "" if is_news else clean_text(e.get("summary", "") or e.get("description", ""))
         published = to_dt(e.get("published_parsed") or e.get("updated_parsed"))
@@ -291,7 +303,7 @@ def main() -> int:
     else:
         merged = new_items
     # 按当前的关注词和排除词重新整理当天全部条目（改了配置当天就生效）
-    merged = [i for i in merged if not excluded(i["title"]) and len(i["title"].strip(" -–|")) >= 6]
+    merged = [i for i in merged if not excluded(i["title"]) and len(i["title"].strip(" -–|")) >= 6 and meaningful(i["title"])]
     if settings.get("news_provider", "bing") != "google":
         merged = [i for i in merged if "news.google.com" not in i["link"]]  # 去掉之前用谷歌新闻抓到的跳转链接
     for i in merged:
@@ -302,6 +314,9 @@ def main() -> int:
         per_source[it["source"]] = per_source.get(it["source"], 0) + 1
     for s in status:
         s["new"] = per_source.get(s["name"], 0) if s["ok"] else 0
+
+    # 英文标题和摘要翻译成中文（机器翻译，已翻译过的不重复翻译）
+    tstats = translate.translate_items(merged)
 
     # 同一事件合并 + 重点打分（规则）
     group_weights = settings.get("keyword_weights", {})
@@ -321,6 +336,7 @@ def main() -> int:
         "clusters": clusters,
         "digest": digest,
         "digest_note": digest_note,
+        "translate": tstats,
         "status": status,
     }
     day_file.write_text(json.dumps(day_data, ensure_ascii=False, indent=1), "utf-8")
@@ -350,6 +366,7 @@ def main() -> int:
 
     ok = sum(1 for s in status if s["ok"])
     print(f"{today}: 本次新增 {len(new_items)} 条，当天累计 {len(merged)} 条，合并为 {len(clusters)} 个事件，信息源 {ok}/{len(status)} 正常")
+    print(f"翻译：需要 {tstats['total']} 段，完成 {tstats['done']} 段，{tstats['engines']} {tstats['error']}")
     if digest:
         print(f"大模型整理完成（{digest['model']}）" + (f"，部分失败：{'；'.join(digest['errors'])}" if digest["errors"] else ""))
     else:
