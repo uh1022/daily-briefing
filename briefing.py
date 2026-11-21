@@ -196,6 +196,11 @@ def main() -> int:
     keep_days = settings.get("keep_days", 60)
     default_limit = settings.get("default_limit", 20)
     match = build_matcher(cfg.get("keywords"))
+    excludes = [str(w).lower() for w in (cfg.get("exclude") or [])]
+
+    def excluded(title: str) -> bool:
+        t = title.lower()
+        return any(w in t for w in excludes)
 
     DAYS.mkdir(parents=True, exist_ok=True)
     state = load_state()
@@ -235,6 +240,8 @@ def main() -> int:
                 continue
             if it["published"] is None and first_time and idx >= NO_DATE_FIRST_RUN:
                 continue
+            if excluded(it["title"]):
+                continue
             it["id"] = key
             fresh.append(it)
         fresh.sort(key=lambda x: x["published"] or t_now, reverse=True)
@@ -264,6 +271,10 @@ def main() -> int:
         merged = old.get("items", []) + [i for i in new_items if i["id"] not in old_ids]
     else:
         merged = new_items
+    # 按当前的关注词和排除词重新整理当天全部条目（改了配置当天就生效）
+    merged = [i for i in merged if not excluded(i["title"])]
+    for i in merged:
+        i["hits"] = match(f"{i['title']} {i['summary']}")
 
     per_source = {}
     for it in merged:
