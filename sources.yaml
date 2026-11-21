@@ -53,10 +53,15 @@ keywords:
     - 尼日利亚
     - West Africa
     - 西非
-  金价:
-    - gold price
-    - 金价
-    - 黄金价格
+
+# 排除词：标题里含有这些词的条目直接不收（用来过滤股票行情等噪音）
+exclude:
+  - 主力资金
+  - 行情快报
+  - 资金流向
+  - 民爆光电
+  - Seasonal returns chart
+  - stock price target
 
 categories:
   - id: ai
@@ -143,11 +148,15 @@ categories:
         type: rss
         url: https://www.northernminer.com/feed/
       - name: Mining Technology
-        type: rss
-        url: https://www.mining-technology.com/feed/
+        type: news
+        lang: en
+        query: site:mining-technology.com
+        limit: 10
       - name: Mining Review Africa
-        type: rss
-        url: https://www.miningreview.com/feed/
+        type: news
+        lang: en
+        query: site:miningreview.com
+        limit: 10
       - name: Australian Mining
         type: rss
         url: https://www.australianmining.com.au/feed/
