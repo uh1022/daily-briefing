@@ -125,6 +125,7 @@
     return r.json();
   }
   const pub = (it) => it.origin || it.source;
+  const zhTitle = (c) => { const r = items[c.rep]; return (r && r.title_zh) || c.title; };
 
   // 每个分类的：综述、重点（含合并的事件）、其余事件
   function plan(catId) {
@@ -137,7 +138,10 @@
         return { headline: h.headline, point: h.point, clusters: cs };
       }).filter((h) => h.clusters.length);
     } else {
-      highlights = cl.slice(0, HL_MAX).map((c) => ({ headline: c.title, point: "", clusters: [c] }));
+      highlights = cl.slice(0, HL_MAX).map((c) => {
+        const r = items[c.rep] || {};
+        return { headline: zhTitle(c), point: r.summary_zh || r.summary || "", clusters: [c] };
+      });
     }
     const used = new Set(highlights.flatMap((h) => h.clusters.map((c) => c.id)));
     const rest = cl.filter((c) => !used.has(c.id));
@@ -170,11 +174,11 @@
   }
 
   function restHTML(c, titles) {
-    const zh = titles[c.id];
+    const zh = titles[c.id] || (items[c.rep] && items[c.rep].title_zh);
     const its = c.items.map((id) => items[id]).filter(Boolean);
     const srcList = its.length > 1
       ? `<details class="srcs"><summary><span class="cnt">${c.sources} 家来源 ▾</span></summary><ul>${its.map((it) =>
-          `<li><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a> · ${esc(pub(it))}</li>`).join("")}</ul></details>`
+          `<li><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title_zh || it.title)}</a> · ${esc(pub(it))}</li>`).join("")}</ul></details>`
       : `<span class="src">${esc(its[0] ? pub(its[0]) : "")}</span>`;
     return `<li>
       <a class="t" href="${esc(c.link)}" target="_blank" rel="noopener">${esc(zh || c.title)}</a>
@@ -202,10 +206,11 @@
   }
 
   function searchHTML(q) {
-    const res = day.items.filter((it) => (it.title + " " + it.summary + " " + pub(it)).toLowerCase().includes(q));
+    const res = day.items.filter((it) => [it.title, it.title_zh, it.summary, it.summary_zh, pub(it)].join(" ").toLowerCase().includes(q));
     if (!res.length) return `<div class="empty">没有找到"${esc(q)}"</div>`;
     return `<div class="more-title">搜索结果 · ${res.length}</div><ul class="rest">${res.map((it) => `<li>
-      <a class="t" href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a>
+      <a class="t" href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title_zh || it.title)}</a>
+      ${it.title_zh ? `<div class="hl-orig">${esc(it.title)}</div>` : ""}
       <div class="meta"><span class="src">${esc(pub(it))}</span><span>${fmtTime(it.published)}</span></div></li>`).join("")}</ul>`;
   }
 
@@ -230,7 +235,9 @@
       : `今日重点按规则排序（来源数量、关注词）。${day.digest_note ? "未使用大模型：" + esc(day.digest_note) : ""}`;
     const rows = day.status.map((s) => `<tr><td>${esc(catName[s.category] || s.category)}</td><td>${esc(s.name)}</td>
       <td class="${s.ok ? "ok" : "err"}">${s.ok ? "正常" : "失败"}</td><td>${s.ok ? s.new : ""}</td><td>${esc(s.error)}</td></tr>`).join("");
-    $("foot").innerHTML = `<p>${note}</p><details class="st"><summary>信息源 ${ok}/${day.status.length} 正常${bad ? `，<span class="err">${bad} 个失败</span>` : ""}（点击查看）</summary>
+    const t = day.translate || {}, nz = day.items.filter((i) => i.title_zh).length;
+    const tr = nz ? `<p>英文标题和摘要为机器翻译，小字为原文${t.done < t.total ? `；本次有 ${t.total - t.done} 段未翻译成功，显示原文` : ""}。</p>` : "";
+    $("foot").innerHTML = `<p>${note}</p>${tr}<details class="st"><summary>信息源 ${ok}/${day.status.length} 正常${bad ? `，<span class="err">${bad} 个失败</span>` : ""}（点击查看）</summary>
       <table class="st"><tr><th>分类</th><th>信息源</th><th>状态</th><th>当天条数</th><th>说明</th></tr>${rows}</table></details>`;
   }
 
