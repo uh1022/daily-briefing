@@ -19,6 +19,10 @@ settings:
   # 页面保留多少天的历史
   keep_days: 60
   default_limit: 20
+  # 关注词分组的权重，越大越容易排进"今日重点"
+  keyword_weights:
+    民爆: 3
+    非洲: 2
 
 # 关注词：标题或摘要命中的条目会高亮并排在前面
 # 英文不区分大小写
@@ -62,8 +66,84 @@ exclude:
   - 民爆光电
   - Seasonal returns chart
   - stock price target
+  - Gold Rate Today
+  - gold rate in
+  - 基金份额
 
 categories:
+  - id: explosives
+    name: 民爆
+    sources:
+      - name: 国际民爆企业
+        type: news
+        lang: en
+        query: Orica OR "Dyno Nobel" OR Enaex OR MAXAM OR "AECI Mining" OR "BME mining" OR "Austin Powder"
+      - name: 硝酸铵市场
+        type: news
+        lang: en
+        query: '"ammonium nitrate" (price OR market OR plant OR explosives)'
+        limit: 15
+      - name: 爆破技术与安全（英文）
+        type: news
+        lang: en
+        query: blasting mine OR "mining explosives" OR "electronic detonators"
+        limit: 15
+      - name: 民爆行业
+        type: news
+        lang: zh
+        query: 民爆 OR 民用爆炸物品 OR 工业炸药 OR 电子雷管
+      - name: 国内民爆企业
+        type: news
+        lang: zh
+        query: 易普力 OR 广东宏大 OR 江南化工 OR 雪峰科技 OR 凯龙股份 OR 保利联合 OR 国泰集团 OR 高争民爆 OR 金奥博
+      - name: 硝酸铵（中文）
+        type: news
+        lang: zh
+        query: 硝酸铵
+        limit: 10
+
+  - id: mining
+    name: 矿业
+    sources:
+      - name: MINING.COM
+        type: rss
+        url: https://www.mining.com/feed/
+      - name: International Mining
+        type: rss
+        url: https://im-mining.com/feed/
+      - name: The Northern Miner
+        type: rss
+        url: https://www.northernminer.com/feed/
+      - name: Mining Technology
+        type: news
+        lang: en
+        query: site:mining-technology.com
+        limit: 10
+      - name: Mining Review Africa
+        type: news
+        lang: en
+        query: site:miningreview.com
+        limit: 10
+      - name: Australian Mining
+        type: rss
+        url: https://www.australianmining.com.au/feed/
+      - name: 尼日利亚矿业新闻
+        type: news
+        lang: en
+        region: NG
+        query: Nigeria mining OR "solid minerals"
+        limit: 15
+      - name: 黄金市场新闻
+        type: news
+        lang: en
+        query: '"gold price" OR "gold miners"'
+        limit: 10
+      - name: 中文矿业新闻
+        type: news
+        lang: zh
+        query: 矿业 OR 金矿 OR 铜矿
+        limit: 15
+
   - id: ai
     name: AI 进展
     sources:
@@ -134,76 +214,3 @@ categories:
       - name: 美团技术团队
         type: rss
         url: https://tech.meituan.com/feed/
-
-  - id: mining
-    name: 矿业
-    sources:
-      - name: MINING.COM
-        type: rss
-        url: https://www.mining.com/feed/
-      - name: International Mining
-        type: rss
-        url: https://im-mining.com/feed/
-      - name: The Northern Miner
-        type: rss
-        url: https://www.northernminer.com/feed/
-      - name: Mining Technology
-        type: news
-        lang: en
-        query: site:mining-technology.com
-        limit: 10
-      - name: Mining Review Africa
-        type: news
-        lang: en
-        query: site:miningreview.com
-        limit: 10
-      - name: Australian Mining
-        type: rss
-        url: https://www.australianmining.com.au/feed/
-      - name: 尼日利亚矿业新闻
-        type: news
-        lang: en
-        region: NG
-        query: Nigeria mining OR "solid minerals"
-        limit: 15
-      - name: 黄金市场新闻
-        type: news
-        lang: en
-        query: '"gold price" OR "gold miners"'
-        limit: 10
-      - name: 中文矿业新闻
-        type: news
-        lang: zh
-        query: 矿业 OR 金矿 OR 铜矿
-        limit: 15
-
-  - id: explosives
-    name: 民爆
-    sources:
-      - name: 国际民爆企业
-        type: news
-        lang: en
-        query: Orica OR "Dyno Nobel" OR Enaex OR MAXAM OR "AECI Mining" OR "BME mining" OR "Austin Powder"
-      - name: 硝酸铵市场
-        type: news
-        lang: en
-        query: '"ammonium nitrate" (price OR market OR plant OR explosives)'
-        limit: 15
-      - name: 爆破技术与安全（英文）
-        type: news
-        lang: en
-        query: blasting mine OR "mining explosives" OR "electronic detonators"
-        limit: 15
-      - name: 民爆行业
-        type: news
-        lang: zh
-        query: 民爆 OR 民用爆炸物品 OR 工业炸药 OR 电子雷管
-      - name: 国内民爆企业
-        type: news
-        lang: zh
-        query: 易普力 OR 广东宏大 OR 江南化工 OR 雪峰科技 OR 凯龙股份 OR 保利联合 OR 国泰集团 OR 高争民爆 OR 金奥博
-      - name: 硝酸铵（中文）
-        type: news
-        lang: zh
-        query: 硝酸铵
-        limit: 10
