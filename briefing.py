@@ -25,6 +25,9 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 
+import aggregate
+import llm
+
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 DAYS = DATA / "days"
@@ -107,6 +110,8 @@ def parse_rss(content: bytes, src: dict) -> list[dict]:
             origin = (e.get("source") or {}).get("title", "") if isinstance(e.get("source"), dict) else ""
             if origin and title.endswith(" - " + origin):
                 title = title[: -len(origin) - 3].strip()
+            if len(title.strip(" -–|")) < 6:
+                continue
         summary = "" if is_news else clean_text(e.get("summary", "") or e.get("description", ""))
         published = to_dt(e.get("published_parsed") or e.get("updated_parsed"))
         items.append({
@@ -272,7 +277,7 @@ def main() -> int:
     else:
         merged = new_items
     # 按当前的关注词和排除词重新整理当天全部条目（改了配置当天就生效）
-    merged = [i for i in merged if not excluded(i["title"])]
+    merged = [i for i in merged if not excluded(i["title"]) and len(i["title"].strip(" -–|")) >= 6]
     for i in merged:
         i["hits"] = match(f"{i['title']} {i['summary']}")
 
@@ -282,11 +287,24 @@ def main() -> int:
     for s in status:
         s["new"] = per_source.get(s["name"], 0) if s["ok"] else 0
 
+    # 同一事件合并 + 重点打分（规则）
+    group_weights = settings.get("keyword_weights", {})
+    kw_weights = {str(w): float(group_weights.get(g, 1)) for g, ws in (cfg.get("keywords") or {}).items() for w in ws}
+    clusters = aggregate.cluster(merged, kw_weights)
+
+    # 大模型整理（可选，失败时页面用规则结果）
+    categories = [{"id": c["id"], "name": c["name"]} for c in cfg["categories"]]
+    items_by_id = {i["id"]: i for i in merged}
+    digest, digest_note = llm.build_digest(categories, clusters, items_by_id)
+
     day_data = {
         "date": today,
         "generated_at": t_now.astimezone(BJ).isoformat(timespec="minutes"),
-        "categories": [{"id": c["id"], "name": c["name"]} for c in cfg["categories"]],
+        "categories": categories,
         "items": merged,
+        "clusters": clusters,
+        "digest": digest,
+        "digest_note": digest_note,
         "status": status,
     }
     day_file.write_text(json.dumps(day_data, ensure_ascii=False, indent=1), "utf-8")
@@ -315,7 +333,11 @@ def main() -> int:
     (SITE / ".nojekyll").write_text("")
 
     ok = sum(1 for s in status if s["ok"])
-    print(f"{today}: 本次新增 {len(new_items)} 条，当天累计 {len(merged)} 条，信息源 {ok}/{len(status)} 正常")
+    print(f"{today}: 本次新增 {len(new_items)} 条，当天累计 {len(merged)} 条，合并为 {len(clusters)} 个事件，信息源 {ok}/{len(status)} 正常")
+    if digest:
+        print(f"大模型整理完成（{digest['model']}）" + (f"，部分失败：{'；'.join(digest['errors'])}" if digest["errors"] else ""))
+    else:
+        print(f"未使用大模型整理：{digest_note}")
     for s in status:
         flag = "OK " if s["ok"] else "ERR"
         print(f"  [{flag}] {s['category']:<10} {s['name']:<24} 抓到 {s['fetched']:>3}  当天 {s['new']:>3}  {s['error']}")
