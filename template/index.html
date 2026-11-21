@@ -42,6 +42,8 @@
     position: sticky; top: 0; z-index: 5; background: var(--bg);
     display: flex; gap: 4px; overflow-x: auto; padding: 10px 0; border-bottom: 1px solid var(--line);
   }
+  nav.tabs { scrollbar-width: none; }
+  nav.tabs::-webkit-scrollbar { display: none; }
   nav.tabs button {
     font: inherit; font-size: 14px; border: 0; background: transparent; color: var(--muted);
     padding: 6px 12px; border-radius: 999px; cursor: pointer; white-space: nowrap;
