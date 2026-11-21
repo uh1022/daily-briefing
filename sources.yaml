@@ -6,7 +6,7 @@
 # 每个信息源的写法（三选一）：
 #   1) RSS 订阅：      type: rss    url: 订阅地址
 #   2) 新闻关键词检索：type: news   query: 检索词   lang: zh 或 en
-#      （用 Google 新闻的公开 RSS，可用 OR 连接多个词，英文词组加引号）
+#      （默认用必应新闻的公开 RSS，点开直接是原文；可用 OR 连接多个词，英文词组加引号）
 #   3) 网页列表抓取：  type: html   url: 列表页地址   selector: 链接的 CSS 选择器
 #
 # 可选项：limit: 每天最多收录几条（默认 20）
@@ -19,6 +19,8 @@ settings:
   # 页面保留多少天的历史
   keep_days: 60
   default_limit: 20
+  # 新闻检索用哪家：bing（点开直接是原文，国内可访问）或 google
+  news_provider: bing
   # 关注词分组的权重，越大越容易排进"今日重点"
   keyword_weights:
     民爆: 3
